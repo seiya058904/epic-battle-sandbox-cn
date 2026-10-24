@@ -73,7 +73,7 @@
       <p>Level budgets are expanded to 999,999,999 coins. Army and troop-type quotas are raised to 1,000, while terrain, collision and deployment-zone rules remain.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🈯 Native Chinese UI</h3>
+      <h3>🌐 Native Chinese UI</h3>
       <p>Translated text and fonts live inside the Unity canvas. Common menu, deployment, pause and result buttons use real Chinese labels rather than webpage subtitles.</p>
     </td>
   </tr>

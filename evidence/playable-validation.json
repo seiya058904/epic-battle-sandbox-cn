@@ -1,7 +1,7 @@
 {
   "version": "0.4.0",
-  "stage": "prepublication",
-  "recordedAt": "2026-10-24T09:36:11.165421+00:00",
+  "stage": "live-verified",
+  "recordedAt": "2026-10-24T09:42:09.929274+00:00",
   "scope": "Playable WebGL site; exact same data and WASM bytes as verified local build",
   "browser": "Chromium 156; Python Playwright; Browser plugin not available",
   "storageIsolation": "PASS: hosted standard and sandbox use distinct project-specific DBs; unrelated /idbfs and two legacy DBs unchanged",
@@ -188,5 +188,292 @@
       ]
     }
   ],
-  "consoleNotes": "Expected CSP rejections of Unity config/analytics, upstream missing-component and WebGL capability warnings. No uncaught page errors. Real Android hardware, all levels and 1000-unit stress remain untested."
+  "consoleNotes": "Expected CSP rejections of Unity config/analytics, upstream missing-component and WebGL capability warnings. No uncaught page errors. Real Android hardware, all levels and 1000-unit stress remain untested.",
+  "testedSourceCommit": "f636f84f4c2c48087dffa65a7fac79f89ad5a177",
+  "workflow": "https://github.com/seiya058904/epic-battle-sandbox-cn/actions/runs/40082723632",
+  "workflowConclusion": "success",
+  "liveFiles": [
+    {
+      "path": "Build/EBS.framework.js",
+      "bytes": 431804,
+      "sha256": "c6aaf91a6bab6ec7354bcb5ad038a55a565b5beda7611e4380411590a4b6cbd8",
+      "contentType": "application/javascript; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "Build/EBS.loader.js",
+      "bytes": 20680,
+      "sha256": "95d413ec942c6764ee89174a13da7a4c7f80567f6a4fb43992a6e8273c3b93d2",
+      "contentType": "application/javascript; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "Build/EBS.sandbox.data",
+      "bytes": 42624074,
+      "sha256": "5c0dc173200c31825b17ec81fed50a9007df320f67773777df5874c30d04e86c",
+      "contentType": "application/octet-stream",
+      "matchesLocal": true
+    },
+    {
+      "path": "Build/EBS.standard.data",
+      "bytes": 42624251,
+      "sha256": "bfc8d2eae269cf60770d1c2c558be74f3a59d1fd3c39cd7485f0e2cdcea14a1a",
+      "contentType": "application/octet-stream",
+      "matchesLocal": true
+    },
+    {
+      "path": "Build/EBS.wasm",
+      "bytes": 44528108,
+      "sha256": "4bd3a7a9e740c0a876ef25a11e4f108eacff3a2d6c49326d65610fd72b2f42e1",
+      "contentType": "application/wasm",
+      "matchesLocal": true
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 182,
+      "sha256": "b484336d26beab87c978ce2dac0c39cc1ccbd5646fdbc0b10e3b200a39272759",
+      "contentType": "image/svg+xml",
+      "matchesLocal": true
+    },
+    {
+      "path": "game.css",
+      "bytes": 1318,
+      "sha256": "2120ed9af960196bca4da09abe6823037f36814c1757464db652f1d8d40f5cc5",
+      "contentType": "text/css; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "index.html",
+      "bytes": 1660,
+      "sha256": "4efefeb4ca69ca04fb72795bae673711fe6d4d1f37768e703e789936049dd890",
+      "contentType": "text/html; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "licenses/OFL-Noto.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "contentType": "text/plain; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "local-mode.js",
+      "bytes": 3576,
+      "sha256": "63af65659bcdb68225aafdd51cc65bcfaf9ed4175baf4d80cb4e3df1a8b08bfc",
+      "contentType": "application/javascript; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "NOTICE.txt",
+      "bytes": 2468,
+      "sha256": "f3f874902d354ce05726deaa6aa0a9788d3da818e1602fd94877d81b19134b0d",
+      "contentType": "text/plain; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "play.js",
+      "bytes": 1748,
+      "sha256": "64e45e445cb13fc7b4ca96841c719ca19b89e3272d5d3bc90ab6bb9db25477d2",
+      "contentType": "application/javascript; charset=utf-8",
+      "matchesLocal": true
+    },
+    {
+      "path": "prefs-codec.js",
+      "bytes": 3269,
+      "sha256": "21069a4d20c1e8bb81c0195c5ad6f40d3fcc4a612dc4c37b2ffbd91427309c25",
+      "contentType": "application/javascript; charset=utf-8",
+      "matchesLocal": true
+    }
+  ],
+  "liveViews": [
+    {
+      "device": "desktop",
+      "complete": true,
+      "pageerrors": [],
+      "resources": [
+        {
+          "stage": "initial",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050249,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "result",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050019,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "refresh",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "reopen",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "normal",
+          "database": "/idbfs-ebs-pages-standard-v1",
+          "gems": 50250,
+          "manLevelKey": 0,
+          "wolfLevelKey": 0
+        }
+      ],
+      "visualReview": "Actual hosted home, level-3 upgrades, deployment, battle, pause, blue-team victory +20, refresh, reopened page and standard mode",
+      "screenshots": [
+        {
+          "path": "output/playwright/v4/live/desktop/battle.png",
+          "sha256": "55b428adc34e4f220f40e8517c1d3495347a964af6ba62f3e2be8296f430c7a6"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/custom-empty.png",
+          "sha256": "adf44ec1e4e2956863031caeb7dd2af72b9ccb89dd2eb9a74f1fae8a4c5fac6c"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/formation.png",
+          "sha256": "6e6d557cadb8fcaa750ea8da8fcf9e83fc12db7957827f416f8832345d7c04c0"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/home.png",
+          "sha256": "b71855e90002d97288d42d0c9ff3696f8efcf6526f32496224ccfa288636e564"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/normal.png",
+          "sha256": "5ded4dd385ec788f45e3908e9f26930ef39387f1763c7fb40a6df0e82abcd3dc"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/pause.png",
+          "sha256": "be5dda921ed678375ac809e125e5f4d5ae51e80f232a0812ea7cec9ecb963322"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/refresh.png",
+          "sha256": "23a8e20374537922d37eaa3373344d43eb83cb352b4d279527f162f1265e3af6"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/reopen.png",
+          "sha256": "bb9a593f119af9eb7eb5c85b30774950a102a35330dcfff33996553a9f0cc568"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/result-dismissed.png",
+          "sha256": "56c6f24c86133b45ca6f6a252b2724573a6a8e5e9e2684767aeb7413bfe33430"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/result.png",
+          "sha256": "766021fa2ba0a1dacf52167adc7f6719c254d03d9ae974bdce6d437f7d992299"
+        },
+        {
+          "path": "output/playwright/v4/live/desktop/upgrades.png",
+          "sha256": "d7a5f848be8676ea5ac59051299b9c31060db559df6a629f35861fdc1e0ed5c6"
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "complete": true,
+      "pageerrors": [],
+      "resources": [
+        {
+          "stage": "initial",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050249,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "result",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050019,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "refresh",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "reopen",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "normal",
+          "database": "/idbfs-ebs-pages-standard-v1",
+          "gems": 50250,
+          "manLevelKey": 0,
+          "wolfLevelKey": 0
+        }
+      ],
+      "visualReview": "Actual hosted home, level-3 upgrades, deployment, battle, pause, blue-team victory +20, refresh, reopened page and standard mode",
+      "screenshots": [
+        {
+          "path": "output/playwright/v4/live/mobile/battle.png",
+          "sha256": "3bccffe46be8a83b1d17d3d27d91b21470e0039d10c4b9cf138d38642551eae7"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/custom-empty.png",
+          "sha256": "b52932703263a342ab8f0d48cfb4f7cfa6034b984e3d35c63a1d0dfda1d2fa7d"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/formation.png",
+          "sha256": "62e14999ffeb8aaa6f94d93250712835eca2440e184f7bee7084dd91666262dd"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/home.png",
+          "sha256": "60d92949a1a484bc49ab1a4caafb720028f321417971e7e9ec70a765c7e920ca"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/normal.png",
+          "sha256": "9cce0a3fc805e977a4d2171630ae73235ed415ca382dc798eaa350b8f8e41142"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/pause.png",
+          "sha256": "196e63defc642a4727fc449b71de0af2472b74d76afcfc611b8dd773038242b2"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/refresh.png",
+          "sha256": "84a9dc793075dba87b1f1ad392a89916b4f859713dbee96bb92b7ac9a4562148"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/reopen.png",
+          "sha256": "ac74b00aa71c0e599b69c684c964d57328a6facabedc6d48ed13dec240932d4b"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/result-dismissed.png",
+          "sha256": "6e9431a678fda358f6d273ab09109969dfb5c25a9471694c47d2f8f2cd9750c4"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/result.png",
+          "sha256": "ed1a668baabe97aaa6fd27ffdf1d7caa34e2e7f7f89db15da83eb06976dc2d12"
+        },
+        {
+          "path": "output/playwright/v4/live/mobile/upgrades.png",
+          "sha256": "7b73a845127c19d2adb8e4ae387bb79dc1a0c2cacb61636f3059eaa0f2eae7b9"
+        }
+      ]
+    }
+  ],
+  "readmeReview": {
+    "referenceRepositories": [
+      "seiya058904/Dear-Mayor",
+      "seiya058904/mochi-arcade",
+      "seiya058904/GEOMETRIC-BATTLE-SANDBOX"
+    ],
+    "renderedEnglishProse": true,
+    "allThreeGameplayImagesLoad": true,
+    "playLinkTargetsGame": true,
+    "screenshot": "output/playwright/v4/readme-live.png"
+  }
 }
