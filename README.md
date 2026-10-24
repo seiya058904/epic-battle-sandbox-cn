@@ -1,84 +1,215 @@
-<div align="center">
+<h1 align="center">⚔️ EPIC BATTLE SANDBOX CN</h1>
 
-<img src="site/banner.svg" alt="Epic Battle Sandbox CN — 史诗战斗·中文沙盒" width="960">
+<p align="center">
+  <strong>Choose your army. Shape the battlefield. Let the clash unfold.</strong>
+</p>
 
-**把中文界面、充足资源与自由布阵，带进个人本地沙盒。**
+<p align="center">
+  A browser-playable, single-player battle sandbox built on an existing Unity WebGL game,<br />
+  with a partially localized Chinese interface, max-level troops, and generous resources.
+</p>
 
-基于现有 Unity WebGL 编译构建的实验补丁 · 非官方项目
+<p align="center">
+  <a href="https://seiya058904.github.io/epic-battle-sandbox-cn/"><strong>▶ Play in Your Browser</strong></a>
+  &nbsp;·&nbsp;
+  <a href="#build-fight-repeat">🎮 How It Works</a>
+  &nbsp;·&nbsp;
+  <a href="#a-look-inside">🖼️ Screenshots</a>
+  &nbsp;·&nbsp;
+  <a href="#play-or-run-locally">⚙️ Run Locally</a>
+</p>
 
-[![版本](https://img.shields.io/badge/patch-0.3.2-315d85?style=flat-square)](CHANGELOG.md)
-[![汉化](https://img.shields.io/badge/简体中文-部分完成-926628?style=flat-square)](localization/zh-CN.md)
-[![运行](https://img.shields.io/badge/运行方式-本地单机-346d5a?style=flat-square)](README_LOCAL.md)
-[![检查与部署](https://github.com/seiya058904/epic-battle-sandbox-cn/actions/workflows/pages.yml/badge.svg)](https://github.com/seiya058904/epic-battle-sandbox-cn/actions/workflows/pages.yml)
+<p align="center">
+  <sub>37 TROOP TYPES &nbsp;·&nbsp; LEVEL 3 ROSTER &nbsp;·&nbsp; AUTOMATED 3D BATTLES &nbsp;·&nbsp; BROWSER-LOCAL SAVES</sub>
+</p>
 
-[项目网站](https://seiya058904.github.io/epic-battle-sandbox-cn/) · [本地运行](README_LOCAL.md) · [验收记录](AUDIT.md) · [汉化对照](localization/zh-CN.md)
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-WebGL-375A73?style=flat-square&labelColor=182B39" alt="Unity WebGL" />
+  <img src="https://img.shields.io/badge/Patch-0.4.0-B39354?style=flat-square&labelColor=182B39" alt="Patch 0.4.0" />
+  <img src="https://img.shields.io/badge/UI-Partial_Chinese-538473?style=flat-square&labelColor=182B39" alt="Partial Simplified Chinese interface" />
+  <a href="https://github.com/seiya058904/epic-battle-sandbox-cn/actions/workflows/pages.yml"><img src="https://github.com/seiya058904/epic-battle-sandbox-cn/actions/workflows/pages.yml/badge.svg" alt="Validation and deployment status" /></a>
+</p>
 
-</div>
+<p align="center">
+  <img src="docs/media/home.png" width="900" alt="Actual game home screen: armored troops in a forest clearing, with native Chinese menu buttons" />
+  <br />
+  <sub>Actual Chromium gameplay capture. The game interface is partly Chinese; this README is written in English.</sub>
+</p>
 
 ---
 
-## 从游戏本身出发
+> **A formation is a question. The battle is how you test it.**
+>
+> Put a front line in place. Add ranged support. Try an unusual matchup. Start the simulation and watch the original 3D units move, collide, and fight. Then change the arrangement and see what happens next.
+>
+> This edition opens directly into its sandbox configuration. There is no extra mode switch above the game.
 
-保留现有 3D 场景、物理和自动战斗，在可验证的资源对象与独立存档上修改。中文标签进入 **Unity Canvas**；资源写入实际 **PlayerPrefs**。打开本地入口就进入当前沙盒配置，没有额外的模式按钮。
+<a id="build-fight-repeat"></a>
+## 🎮 Build. Fight. Repeat.
 
-本仓库只发布补丁代码、翻译表、测试和文档。**网站是项目介绍，不提供在线游戏或游戏资产下载。** 运行需要自行准备有权使用、且 SHA-256 与基线一致的原始构建。
+<p align="center"><code>CHOOSE TROOPS &nbsp;→&nbsp; PLACE BOTH SIDES &nbsp;→&nbsp; START THE BATTLE &nbsp;→&nbsp; REVISE &amp; RETRY</code></p>
 
-## 已经做到什么
+1. **Pick a mode.** Enter Custom Battle for your own matchup, or explore the build's regular and epic levels.
+2. **Arrange the armies.** Select troops and click or tap the battlefield to place them within the permitted deployment areas.
+3. **Watch the clash.** Start the battle and let the existing combat simulation resolve it. Pause and resume when you want a closer look.
+4. **Try another idea.** Review the outcome, return to setup, and adjust your composition.
 
-| 能力 | 当前实现 | 验证边界 |
-| :--- | :--- | :--- |
-| 游戏内中文 | 111 个原文映射；另增 33 处原生按钮与标题 | 历史映射目视确认 29 项，新标签确认 19/33 处；不等于全汉化 |
-| 充足宝石 | 每次启动补充到 `999999999`，正常消费、保存 | 历史完成 3 次真实升级扣费；不是永不减少的余额 |
-| 兵种与等级 | 37 种兵种设为本构建最高 3 级；8 种史诗兵种在本地模拟档可用 | 不伪造付款、订阅或服务器权限 |
-| 宽松布阵 | 关卡金币 `999999999`，人数与每类配额提高到 `1000` | 实测 163 人布阵；地形、碰撞及性能限制仍存在 |
-| 安静试玩 | 停用自动广告倒计时组件，移除网页顶部控制栏 | 连续观察 360 秒未出现该倒计时；评分提示仍可能出现 |
-| 存档隔离 | 普通档、旧沙盒、新沙盒分开 | 已验证刷新、重开及普通档隔离；不覆盖个人存档 |
+## ✨ More Room to Experiment
 
-桌面与模拟 Android 触屏视口已完成布阵、开战、暂停、继续和结算验证。真实 Android 设备、全部关卡及 1000 人压力测试未完成。完整证据与例外以 [AUDIT.md](AUDIT.md) 为准。
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧩 A Ready-to-Use Roster</h3>
+      <p>All 37 troop types are set to this build's highest level, Level 3. Eight epic troop types are available in the separate sandbox save.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💎 Generous Resources</h3>
+      <p>Each launch seeds 999,999,999 gems. Spending still uses the game's real resource logic, and the upstream build may add its own starting bonus.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚔️ Wider Deployment Budgets</h3>
+      <p>Level budgets are expanded to 999,999,999 coins. Army and troop-type quotas are raised to 1,000, while terrain, collision and deployment-zone rules remain.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🈯 Native Chinese UI</h3>
+      <p>Translated text and fonts live inside the Unity canvas. Common menu, deployment, pause and result buttons use real Chinese labels rather than webpage subtitles.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌲 The Existing 3D Game</h3>
+      <p>The original models, physics, touch interaction and automated combat remain in place. This is a modification of a compiled build, not a recreated look-alike.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💾 Separate Browser Saves</h3>
+      <p>Sandbox and standard mode use different databases. The hosted game also uses project-specific names so it does not import another project's Unity save.</p>
+    </td>
+  </tr>
+</table>
 
-## 在本地开始
+The automatic advertising countdown is disabled. The original rating prompt may still appear. Resources are **large finite balances**, not mathematical infinity, and the 1,000-unit quota is **not a performance guarantee**.
 
-**已整理好的这台电脑**：在项目目录执行：
+<a id="a-look-inside"></a>
+## 🖼️ A Look Inside
 
-```powershell
-./Start-Local.ps1
-```
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/media/formation.png" alt="Real sandbox deployment screen with troops placed on both sides of the battlefield" />
+      <br /><sub><strong>BUILD THE MATCHUP</strong><br />Place your forces before the simulation begins.</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <img src="docs/media/upgrades.png" alt="Real troop upgrade screen showing the roster at Level 3 with a large gem balance" />
+      <br /><sub><strong>START WITH A FULL-LEVEL ROSTER</strong><br />Experiment with the build's existing troop progression.</sub>
+    </td>
+  </tr>
+</table>
 
-固定入口为 `http://127.0.0.1:8765/local.html`。不要改端口或换成 `localhost`，以免进入另一份浏览器存储。
+These are actual game captures, not concept art. Chinese localization is still partial: some product artwork, prompts and branding retain their original text.
 
-**从 GitHub 新克隆**：仓库不包含游戏资产，先按 [完整运行指南](README_LOCAL.md) 导入获授权原件、准备字体并重建三个补丁阶段，再运行启动器。
+<a id="play-or-run-locally"></a>
+## 🚀 Play or Run Locally
 
-## 找到你需要的内容
+### 🌐 Play Online
 
-```text
-epic-battle-sandbox-cn/
-├── README_LOCAL.md       本地运行、重建与恢复
-├── AUDIT.md              实际验收结果与局限
-├── CHANGELOG.md          版本变化
-├── NOTICE.md             第三方来源与发布范围
-├── local.html            本地游戏入口
-├── local-mode.js         独立存档初始化
-├── prefs-codec.js        PlayerPrefs 编解码与沙盒值
-├── localization/         翻译表、汉化对照与字体许可
-├── tools/                构建、检查与浏览器复验
-├── evidence/             文本证据及 SHA-256 清单
-└── site/                 独立项目介绍网站
-```
+**[Open Epic Battle Sandbox CN →](https://seiya058904.github.io/epic-battle-sandbox-cn/)**
 
-游戏原件 `Build/`、生成包 `local-generated/`、截图 `output/` 和仓库外的个人浏览器配置均留在本机，不进入 Git 历史。公开仓库从干净历史建立，旧历史只保存在本地恢复包中。
+The link loads the game itself. No game account or live game server is required. The first load downloads roughly **84 MiB** of runtime data, so allow a little time before the battlefield appears.
 
-## 验证与恢复
+The game runs on your device. The hosted version needs a connection to fetch its files; a complete offline cache is not promised. Saves belong to the current browser and origin, and do not automatically transfer between GitHub Pages and localhost.
 
-```powershell
+### 💻 Run the Packaged Build
+
+Requires **Python 3** and a modern WebGL-capable browser. After cloning:
+
+~~~bash
+python tools/build_site.py
+python -m http.server 8766 --bind 127.0.0.1 --directory output/pages
+~~~
+
+Open **http://127.0.0.1:8766/**.
+
+The prepared runtime is included under `web-build/`. Rebuilding the underlying asset patches is a separate workflow; see the [local setup and recovery guide](README_LOCAL.md). An existing personal installation can continue using `Start-Local.ps1` at its original port, **8765**, without changing its saved profile.
+
+### 🎛️ Controls at a Glance
+
+| Action | Input |
+| :--- | :--- |
+| Select a troop or menu item | Click or tap |
+| Place a unit | Click or tap a valid deployment position |
+| Start combat | Use the battle button at the lower right |
+| Pause / resume | Use the in-game pause and resume controls |
+| Clear a formation | Open the deployment toolbar and use Clear |
+| Use standard mode | Add `?sandbox=0` to the game URL |
+
+Landscape orientation is recommended on a phone. Desktop and simulated touch viewports are covered by browser checks; physical Android-device validation is still pending.
+
+## 🔎 What Has Been Verified
+
+| Area | Evidence and limit |
+| :--- | :--- |
+| Native localization | 111 original-text mappings; 29 historically checked visually. A further 33 native labels were added, with 19 individually confirmed. This is not a whole-game coverage percentage. |
+| Resource behavior | Three real upgrade deductions were verified in the earlier non-maxed test configuration. Current sandbox troops are already maxed; clicking a maxed button is not counted as spending. |
+| Deployment budgets | A 15-Spartan deployment spent 10,500 coins against a former 6,000 budget. A custom formation reached 163 units against the former 120-unit limit. |
+| Battle loop | Deployment, combat, pause, resume, result, refresh and reopening are exercised in Chromium. |
+| Save boundaries | Local migration preserves source saves. Hosted sandbox and standard databases are separate from other projects' Unity databases. |
+| Advertising countdown | The specific automatic countdown component is disabled; the earlier build was observed for 360 seconds. |
+
+For the full audit, see [AUDIT.md](AUDIT.md) and the [evidence directory](evidence/). Some historical records are in Chinese. All levels, all devices and 1,000-unit battles have not been exhaustively tested.
+
+<details>
+<summary><strong>🛠️ Development, verification and repository layout</strong></summary>
+
+### Checks
+
+~~~bash
 python tools/check_public.py
+python -m unittest discover -s tools -p test_public.py -v
 node tools/test_prefs.cjs
-python tools/verify_originals.py   # 需要本地原件和备份
-```
+python tools/build_site.py
+~~~
 
-普通模式使用 `local.html?sandbox=0`；原始构建使用同一 origin 的 `index.html`。具体恢复流程及旧历史恢复方法见 [README_LOCAL.md](README_LOCAL.md#恢复与回滚)。
+Browser checks require Python Playwright and an installed Chromium browser. Set `EBS_CHROMIUM` to its executable path when necessary:
 
-## 来源与边界
+~~~bash
+python tools/test_hosted_storage.py
+python tools/qa_playable_site.py http://127.0.0.1:8766/
+python tools/qa_playable_site.py http://127.0.0.1:8766/ --mobile
+~~~
 
-分析基线来自 [CoreScripts/epicbattlesimulator2](https://github.com/CoreScripts/epicbattlesimulator2)，锁定提交 `5b6e7f7`。仓库名不能证明它是 Rappid Studios 的授权原版；本项目也不声称第三方游戏本体开源。
+### Repository Map
 
-仅面向个人本地单机实验，不操作在线账户、排行榜、服务端余额或真实支付。游戏和品牌权利归相应权利人；Noto 字体使用 OFL。详见 [NOTICE.md](NOTICE.md)。
+~~~text
+site/                 Direct-to-game page and loading UI
+web-build/            Approved, hash-locked WebGL runtime
+docs/media/           Real gameplay screenshots
+localization/         Translation tables and font license
+tools/                Asset patching, packaging and verification
+evidence/             Hash manifests and validation records
+local-mode.js         Local and hosted save initialization
+prefs-codec.js        PlayerPrefs codec and sandbox settings
+~~~
+
+The Pages workflow validates publication boundaries, builds `output/pages/`, and deploys that exact directory. Personal profiles, extracted analysis resources, original backups and old Git bundles remain excluded.
+
+</details>
+
+<details>
+<summary><strong>📜 Provenance and rights</strong></summary>
+
+This is an **unofficial modification** of the compiled WebGL build found in [CoreScripts/epicbattlesimulator2](https://github.com/CoreScripts/epicbattlesimulator2), pinned to commit `5b6e7f7`. It is not a Unity source project. Its title does not establish that it is the authorized Rappid Studios mobile release.
+
+The maintainer confirmed permission to publicly deploy this modified build and distribute its required runtime assets. This confirmation is recorded in [NOTICE.md](NOTICE.md); it is not an open-source license for the underlying game. Game and brand rights remain with their respective owners. Noto font usage follows the included OFL terms.
+
+No payment receipts, subscription flags, online balances, leaderboards or remote accounts are modified. Epic troops are available only within the independent sandbox state; this is not evidence of a real-money purchase.
+
+</details>
+
+---
+
+<p align="center">
+  <a href="https://seiya058904.github.io/epic-battle-sandbox-cn/"><strong>Enter the battlefield →</strong></a>
+  <br /><sub>Make a formation. Watch it unfold. Try something different.</sub>
+</p>

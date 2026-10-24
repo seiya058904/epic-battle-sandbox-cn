@@ -6,6 +6,9 @@ TemplateData/
 /index.html
 *.data
 *.wasm
+!web-build/EBS.wasm
+!web-build/EBS.sandbox.data
+!web-build/EBS.standard.data
 *.bundle
 *.zip
 *.otf

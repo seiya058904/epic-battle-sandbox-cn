@@ -25,6 +25,17 @@ class PublicBoundaryTests(unittest.TestCase):
                      '.github/workflows/pages.yml', 'README.md', 'local.html']:
             check_public.check_blob(name, '简体中文'.encode())
 
+    def test_runtime_changes_need_explicit_hash_review(self):
+        for name in check_public.ASSETS:
+            with self.subTest(name=name), self.assertRaises(SystemExit):
+                check_public.check_blob(name, b'unreviewed replacement')
+
+    def test_readme_prose_is_english(self):
+        root = Path(__file__).resolve().parents[1]
+        for name in ('README.md', 'README_LOCAL.md'):
+            text = (root / name).read_text(encoding='utf-8')
+            self.assertFalse(any('\u3400' <= c <= '\u9fff' for c in text), name)
+
     def test_site_local_links_exist(self):
         root = Path(__file__).resolve().parents[1]
         class Links(HTMLParser):
@@ -47,7 +58,10 @@ class PublicBoundaryTests(unittest.TestCase):
                 elif link.startswith(repo):
                     self.assertTrue((root / link[len(repo):]).is_file())
                 elif not link.startswith('https://'):
-                    self.assertTrue((root / 'site' / link).exists())
+                    if link.startswith('Build/'):
+                        self.assertTrue((root / 'web-build' / Path(link).name).is_file())
+                    else:
+                        self.assertTrue((root / 'site' / link).exists() or (root / link).exists())
 
 
 class ImportTests(unittest.TestCase):

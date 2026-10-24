@@ -1,7 +1,5 @@
-# Documentation design
+# Game and README presentation
 
-Scope: `site/` and README. Mode: Read. The visitor should understand the patch's real coverage and find the local setup guide.
+The website is the existing Unity game: a centered 16:9 canvas, direct loading, no additional top toolbar. A restrained navy loading panel disappears once the game is ready. Keep the in-game artwork and Chinese UI intact.
 
-Use a compact project handbook: warm paper background, deep blue title and links, quiet separators, generous Chinese line spacing, an accessible feature table and sequential setup instructions. The main action is reading the local guide, never a misleading play button. No game artwork, invented screenshots, decorative counters or external font dependency.
-
-The README shares the title and a geometric, text-only SVG banner. Mobile layout becomes a single column with a horizontally scrollable data table. Links and disclosure controls work without JavaScript; keyboard focus is visible. Keep the existing game canvas and visual assets untouched.
+The English README follows the owner's Dear Mayor, Mochi Arcade and GEOBATTLE structure: centered title and tagline, prominent Play link, a real gameplay hero, small status badges, concise feature panels, a screenshot pair and technical details in a disclosure. All prose, labels, alt text and captions are English. Screenshots show the actual Chinese-language game and are not mockups.

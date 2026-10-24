@@ -1,12 +1,25 @@
-# 来源与发布范围
+# Provenance, Permission and Publication Scope
 
-本公开仓库仅包含项目编写的补丁、前端入口、翻译映射、复验工具及文档。GitHub Pages 仅发布 `site/` 的介绍页面；不加载游戏，不提供游戏二进制、提取资源、游戏截图或个人存档。
+The maintainer explicitly confirmed on 2026-10-24 that their authorization permits public deployment of this modified WebGL game and distribution of its required program and visual assets. Publication is based on that confirmation; this repository does not claim to independently verify a separate license document or provide official endorsement.
 
-- 分析来源：https://github.com/CoreScripts/epicbattlesimulator2 ，基线提交 `5b6e7f7035a4246fac6f58aca6799d5eaacfcc5d`。公开可访问不代表开源或已获原版权人授权。
-- 此构建配置出现 madkidgames.com / H5_OnDomainApproved；不能据其标题推定与 Rappid Studios 手机版身份、功能或语言资源一致。本项目不是官方产品，也不暗示获得官方背书。
-- 游戏程序、模型、贴图、音频、图标和品牌权利属于各自权利人。本仓库没有对这些内容授予使用或再分发许可。
-- 中文字体来源为 Noto CJK，原始字体不随仓库分发；重建所需版本与哈希见 README_LOCAL.md。OFL 许可证文本保留于 `localization/OFL-Noto.txt`。
-- 文本证据中的截图路径指向本机保留文件；公开克隆不包含这些截图。读者可按复验脚本自行生成；没有把不可在线查看的原始截图宣称为在线展示。
-- 当前公开范围不包含任何完整游戏发行。对补丁代码暂未另行授予通用开源许可证；公开阅读不替代相关许可。
+The permitted publication set is recorded by exact file size and SHA-256 in `evidence/public-assets.json`: the original loader and WASM, the reviewed modified framework, two reviewed UI/data variants, and selected actual gameplay screenshots. Personal saves, profiles, old Git bundles and extracted analysis resources are not published.
 
-本地沙盒不模拟付款成功，不修改付费收据、订阅标记、线上账户或服务器权限。全部资源实验使用独立浏览器存档。
+## Original game
+
+The analyzed build came from [CoreScripts/epicbattlesimulator2](https://github.com/CoreScripts/epicbattlesimulator2), pinned to `5b6e7f7035a4246fac6f58aca6799d5eaacfcc5d`. It contains compiled WebGL artifacts, not an editable Unity source project.
+
+Its configuration references madkidgames.com and H5_OnDomainApproved. The repository title does not establish that this is the authorized Rappid Studios mobile release. The project is an unofficial modification and does not claim affiliation with the original developers.
+
+Game code, models, textures, audio, branding and other third-party materials remain subject to their respective owners' rights. Public availability here is not an open-source license or a grant for further redistribution.
+
+## Fonts and modification code
+
+Chinese glyphs use Noto CJK under the SIL Open Font License. The license is included at `localization/OFL-Noto.txt`. The complete upstream font file is not separately distributed in this repository; the game data contains the generated glyph atlas.
+
+No general open-source license has been declared for the modification code. Do not infer a license for third-party assets from source visibility.
+
+## Single-player boundary
+
+The sandbox changes browser-local progression and resources only. It does not alter online accounts, leaderboards, server balances, payment receipts or subscription flags. Local epic-unit availability is not proof of a real purchase. Runtime external service requests are constrained by the page's same-origin content security policy.
+
+Historical evidence refers to local screenshot files; the public `docs/media/` images are a selected presentation set. Audit claims distinguish actual tests from untested areas.

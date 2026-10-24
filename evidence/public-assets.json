@@ -1,0 +1,50 @@
+{
+  "version": "0.4.0",
+  "authorization": "Maintainer explicitly confirmed permission to publicly deploy and distribute the modified game and required runtime assets on 2026-10-24. This record is not an open-source license or an independently verified grant.",
+  "scope": "Exact playable runtime files and real README screenshots only; no personal saves, backup bundles, or extracted analysis resources.",
+  "files": [
+    {
+      "path": "web-build/EBS.framework.js",
+      "bytes": 431804,
+      "sha256": "c6aaf91a6bab6ec7354bcb5ad038a55a565b5beda7611e4380411590a4b6cbd8"
+    },
+    {
+      "path": "web-build/EBS.loader.js",
+      "bytes": 20680,
+      "sha256": "95d413ec942c6764ee89174a13da7a4c7f80567f6a4fb43992a6e8273c3b93d2"
+    },
+    {
+      "path": "web-build/EBS.sandbox.data",
+      "bytes": 42624074,
+      "sha256": "5c0dc173200c31825b17ec81fed50a9007df320f67773777df5874c30d04e86c"
+    },
+    {
+      "path": "web-build/EBS.standard.data",
+      "bytes": 42624251,
+      "sha256": "bfc8d2eae269cf60770d1c2c558be74f3a59d1fd3c39cd7485f0e2cdcea14a1a"
+    },
+    {
+      "path": "web-build/EBS.wasm",
+      "bytes": 44528108,
+      "sha256": "4bd3a7a9e740c0a876ef25a11e4f108eacff3a2d6c49326d65610fd72b2f42e1"
+    },
+    {
+      "path": "docs/media/formation.png",
+      "bytes": 436816,
+      "sha256": "49b1b1f199c5d1821e48a604fc1bdfced6c0498c638c2455c53a082ef36df6c2",
+      "source": "Actual Chromium capture of the prepared 0.4.0 playable site at 1280x720; no image edits"
+    },
+    {
+      "path": "docs/media/home.png",
+      "bytes": 388352,
+      "sha256": "f8197ad9f818f38fe24631e817954f0ee71281a4e274be287558bc1353c38c68",
+      "source": "Actual Chromium capture of the prepared 0.4.0 playable site at 1280x720; no image edits"
+    },
+    {
+      "path": "docs/media/upgrades.png",
+      "bytes": 712364,
+      "sha256": "4018752b71f9f1f405ccb83662148ba07a00f6fc4787eaef944b38b591b86c90",
+      "source": "Actual Chromium capture of the prepared 0.4.0 playable site at 1280x720; no image edits"
+    }
+  ]
+}

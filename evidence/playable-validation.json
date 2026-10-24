@@ -1,0 +1,192 @@
+{
+  "version": "0.4.0",
+  "stage": "prepublication",
+  "recordedAt": "2026-10-24T09:36:11.165421+00:00",
+  "scope": "Playable WebGL site; exact same data and WASM bytes as verified local build",
+  "browser": "Chromium 156; Python Playwright; Browser plugin not available",
+  "storageIsolation": "PASS: hosted standard and sandbox use distinct project-specific DBs; unrelated /idbfs and two legacy DBs unchanged",
+  "legacyStorage": "PASS: fresh seed, empty-v1 fallback, valid-v1 migration and source bytes unchanged",
+  "originalFiles": "PASS: six originals and six backups match baseline",
+  "earlierFailure": "Preview initially seeded the localhost-8765 persistent directory. Actual game read 50250 gems and level 1. Fixed by matching each supported URL directory hash before retesting.",
+  "views": [
+    {
+      "device": "desktop",
+      "complete": true,
+      "pageerrors": [],
+      "resources": [
+        {
+          "stage": "initial",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050249,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "result",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050019,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "refresh",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "reopen",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "normal",
+          "database": "/idbfs-ebs-pages-standard-v1",
+          "gems": 50250,
+          "manLevelKey": 0,
+          "wolfLevelKey": 0
+        }
+      ],
+      "visualReview": "Home, level-3 upgrades, formation, pause, blue-team victory +20, refresh, reopen and ordinary mode; selected screenshots inspected",
+      "screenshots": [
+        {
+          "path": "output/playwright/v4/preview/desktop/battle.png",
+          "sha256": "ade0768065e6a3f8b0eed978464f64a07830f1e9a52f2742b2a11bdca25bd30d"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/custom-empty.png",
+          "sha256": "adf44ec1e4e2956863031caeb7dd2af72b9ccb89dd2eb9a74f1fae8a4c5fac6c"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/formation.png",
+          "sha256": "b86a738bf1c50093a17b41e523d5327e2f24e84d00399eb0dafb3bfe92e2137f"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/home.png",
+          "sha256": "f8197ad9f818f38fe24631e817954f0ee71281a4e274be287558bc1353c38c68"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/normal.png",
+          "sha256": "e00d54cabebe3e4a028c586df51707d436802dff2874df2fdf0f9374fe566ecd"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/pause.png",
+          "sha256": "b50ff131deeb7bfbca913d5526efbeda090363f71b912a38474bf4434a0f110a"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/refresh.png",
+          "sha256": "6f1f4f9d0fcf0e3bed85ab84ea3f692bde1697c72675f1d1bcd268015acd5d56"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/reopen.png",
+          "sha256": "9845a640b5416523a22c1353e973b88cbcc0565da29afe1f3dda894e50993bb2"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/result-dismissed.png",
+          "sha256": "1d14266fb9a282708f9c35c161b4f63e32b2422305bfb8e16eb7259a317c401f"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/result.png",
+          "sha256": "4fef18d02e349333b85f45f5cac30881a898c848b29601623e4fd7369d87add4"
+        },
+        {
+          "path": "output/playwright/v4/preview/desktop/upgrades.png",
+          "sha256": "4018752b71f9f1f405ccb83662148ba07a00f6fc4787eaef944b38b591b86c90"
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "complete": true,
+      "pageerrors": [],
+      "resources": [
+        {
+          "stage": "initial",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050249,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "result",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000050019,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "refresh",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "reopen",
+          "database": "/idbfs-ebs-pages-sandbox-v1",
+          "gems": 1000049999,
+          "manLevelKey": 2,
+          "wolfLevelKey": 2
+        },
+        {
+          "stage": "normal",
+          "database": "/idbfs-ebs-pages-standard-v1",
+          "gems": 50250,
+          "manLevelKey": 0,
+          "wolfLevelKey": 0
+        }
+      ],
+      "visualReview": "Home, level-3 upgrades, formation, pause, blue-team victory +20, refresh, reopen and ordinary mode; selected screenshots inspected",
+      "screenshots": [
+        {
+          "path": "output/playwright/v4/preview/mobile/battle.png",
+          "sha256": "8b66d01c562338c5764f30ee6876ad49229744fbd1d7c2492b81d10408c1dbdb"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/custom-empty.png",
+          "sha256": "b52932703263a342ab8f0d48cfb4f7cfa6034b984e3d35c63a1d0dfda1d2fa7d"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/formation.png",
+          "sha256": "84ad22fb3e9cadab13d6282c6bed6b1e7a0cdfd3575f7d9079fd194c644fa412"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/home.png",
+          "sha256": "b691bab503a8de5943d92215cb3b2b8a4e0bf1ae455390e5e651d13760fd8f9d"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/normal.png",
+          "sha256": "e3d262a2cd5c1b5d659cba658b16c2867e08f6e7286e0a7f335c11bb729ac2c8"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/pause.png",
+          "sha256": "d8054c96b7d4fa5fb6f68654cdc6517bd1270f2d3e3bb0105a2cc1ec45dc3ae3"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/refresh.png",
+          "sha256": "6046217a894d007bb9c609fa553153d31cdbfc57a1cf7b24fdb2d709aa09f77e"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/reopen.png",
+          "sha256": "2516d48deff945f1f56efb872fbed7023c8fbaf28d17c0df72a62cfd5bbb1678"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/result-dismissed.png",
+          "sha256": "d03469242d13eb641764a70fe497118ec0fc343b861cab192adb8d9276e05311"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/result.png",
+          "sha256": "0ad73316d34f2f675547e35715e862042b81a221786d24b8f2f86814ccf05636"
+        },
+        {
+          "path": "output/playwright/v4/preview/mobile/upgrades.png",
+          "sha256": "e21efa10a54ed6f0627e4a2ffa2c8c831372be561f38271448691471af78d8d7"
+        }
+      ]
+    }
+  ],
+  "consoleNotes": "Expected CSP rejections of Unity config/analytics, upstream missing-component and WebGL capability warnings. No uncaught page errors. Real Android hardware, all levels and 1000-unit stress remain untested."
+}

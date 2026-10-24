@@ -7,12 +7,12 @@ web
 
 ## Purpose
 
-Epic Battle Sandbox CN is a personal local Unity WebGL patch project. The user confirmed that the public repository contains code, patches and documentation, and that its website is an introduction and local setup guide only.
+Epic Battle Sandbox CN is a playable single-player Unity WebGL modification. The user explicitly corrected the documentation-only deployment and confirmed permission to publicly deploy and distribute the modified game and its required runtime assets on 2026-10-24.
 
 ## Capabilities and constraints
 
-Partial native Chinese UI, large finite local resource values, max local troop levels and isolated saves. No online balance, payment or subscription changes. No game assets or game screenshots on the public website. Evidence in AUDIT.md governs all claims.
+Partial native Chinese UI, large finite resource values, max local troop levels and browser-local saves. No online account, payment, subscription or leaderboard changes. Public runtime assets and actual screenshots are explicitly hash-listed. AUDIT.md governs gameplay claims.
 
 ## Operating context
 
-Existing static HTML/CSS/JavaScript and Python tooling. Preserve the local game and fixed localhost origin. Public documentation is a separate static surface deployed from site/.
+Static HTML/CSS/JavaScript and Python tooling. GitHub Pages loads the game directly, without a documentation landing page or top toolbar. Its saves use project-specific database names. The original fixed localhost origin and personal browser profile remain intact. README prose is entirely English.

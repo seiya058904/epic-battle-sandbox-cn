@@ -9,3 +9,5 @@
 *.yml text eol=lf
 *.svg text eol=lf
 *.ps1 text eol=crlf
+web-build/* binary
+docs/media/*.png -text
