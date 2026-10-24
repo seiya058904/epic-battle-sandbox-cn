@@ -1,0 +1,2106 @@
+[
+  {
+    "kind": "font_atlas",
+    "file": "sharedassets0.assets",
+    "id": 17,
+    "size": [
+      4096,
+      4096
+    ],
+    "format": "Alpha8"
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets0.assets",
+    "id": 5,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets0.assets",
+    "id": 6,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets0.assets",
+    "id": 7,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets1.assets",
+    "id": 5,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets1.assets",
+    "id": 6,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets1.assets",
+    "id": 7,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font",
+    "file": "sharedassets0.assets",
+    "id": 32,
+    "name": "Avalon Bold SDF",
+    "glyphs_added": 251,
+    "atlas": [
+      4096,
+      4096
+    ]
+  },
+  {
+    "kind": "font_atlas",
+    "file": "sharedassets0.assets",
+    "id": 12,
+    "size": [
+      4096,
+      2048
+    ],
+    "format": "Alpha8"
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets0.assets",
+    "id": 3,
+    "atlas": [
+      4096,
+      2048
+    ]
+  },
+  {
+    "kind": "font_material",
+    "file": "sharedassets0.assets",
+    "id": 4,
+    "atlas": [
+      4096,
+      2048
+    ]
+  },
+  {
+    "kind": "font",
+    "file": "sharedassets0.assets",
+    "id": 33,
+    "name": "ARIAL SDF",
+    "glyphs_added": 249,
+    "atlas": [
+      4096,
+      2048
+    ]
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level0",
+    "id": 61,
+    "offset": 88,
+    "source": "By choosing Accept, I agree with the Privacy Policy.",
+    "target": "选择接受，即表示同意隐私政策。"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level0",
+    "id": 62,
+    "offset": 88,
+    "source": "Loading",
+    "target": "加载中"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level0",
+    "id": 63,
+    "offset": 88,
+    "source": "Important",
+    "target": "重要提示"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6328,
+    "offset": 88,
+    "source": "Your Army has not been set",
+    "target": "尚未布置部队"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6330,
+    "offset": 88,
+    "source": "Level 1",
+    "target": "第1关"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6335,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6338,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6346,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6353,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6360,
+    "offset": 88,
+    "source": "Special",
+    "target": "特殊"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6373,
+    "offset": 88,
+    "source": "LOADING...",
+    "target": "加载中…"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6375,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6377,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6386,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6392,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6395,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6398,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6403,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6407,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6413,
+    "offset": 88,
+    "source": "Catapult - LVL 2",
+    "target": "投石车 - 2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6424,
+    "offset": 88,
+    "source": "Opponent",
+    "target": "对手"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6426,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6435,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6438,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6439,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6446,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6449,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6450,
+    "offset": 88,
+    "source": "Opponent Disconnected",
+    "target": "对手已断开连接"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6469,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6472,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6473,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6475,
+    "offset": 88,
+    "source": "Melee",
+    "target": "近战"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6478,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6479,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6490,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6491,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6495,
+    "offset": 88,
+    "source": "Spartan",
+    "target": "斯巴达勇士"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6500,
+    "offset": 88,
+    "source": "Music & SFX",
+    "target": "音乐与音效"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6521,
+    "offset": 88,
+    "source": "Social",
+    "target": "社交"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6526,
+    "offset": 88,
+    "source": "My Army",
+    "target": "我方部队"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6530,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6541,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6549,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6553,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6554,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6555,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6556,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6558,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6559,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6561,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6565,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6570,
+    "offset": 88,
+    "source": "Paused",
+    "target": "已暂停"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6573,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6577,
+    "offset": 88,
+    "source": "Unlock Six Epic Units! ",
+    "target": "解锁六种史诗兵种！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6582,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6583,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6601,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6603,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6605,
+    "offset": 88,
+    "source": "Get 5 Wins",
+    "target": "取得5场胜利"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6607,
+    "offset": 88,
+    "source": "Ranged",
+    "target": "远程"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6608,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6620,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6621,
+    "offset": 88,
+    "source": "Level 1",
+    "target": "第1关"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6625,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6633,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6635,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6639,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6643,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6652,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6653,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6655,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6656,
+    "offset": 88,
+    "source": "Level Stats",
+    "target": "关卡统计"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6664,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6667,
+    "offset": 88,
+    "source": "Daily Reward",
+    "target": "每日奖励"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6670,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6676,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6678,
+    "offset": 88,
+    "source": "Unlock \"Spartan\", \"Sentinel\", \"Samurai\", \"Minigun\", \"Fire Dragon\" and \"Rhino\" !!",
+    "target": "解锁斯巴达勇士、哨卫、武士、转管机枪、火龙和犀牛！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6679,
+    "offset": 88,
+    "source": "Surrender",
+    "target": "认输"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6697,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6700,
+    "offset": 88,
+    "source": "Complete All Previous Levels",
+    "target": "请先完成前面的所有关卡"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6701,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6703,
+    "offset": 88,
+    "source": "Level 5 Passed",
+    "target": "第5关已通过"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6706,
+    "offset": 88,
+    "source": "Play Tutorial ",
+    "target": "开始教程"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6708,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6709,
+    "offset": 88,
+    "source": "Loading",
+    "target": "加载中"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6713,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6715,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6718,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6719,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6720,
+    "offset": 88,
+    "source": "Leaderboard",
+    "target": "排行榜"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6723,
+    "offset": 88,
+    "source": "Unlock \"Spartan\", \"Sentinel\", \"Samurai\", \"Minigun\", \"Fire Dragon\" and \"Rhino\" !!",
+    "target": "解锁斯巴达勇士、哨卫、武士、转管机枪、火龙和犀牛！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6725,
+    "offset": 88,
+    "source": "SEARCHING FOR OPPONENT...",
+    "target": "正在寻找对手…"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6727,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6732,
+    "offset": 88,
+    "source": "Every in app purchase will remove pop up ads!",
+    "target": "任意应用内购买将移除弹出广告！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6739,
+    "offset": 88,
+    "source": "Unlock Six Epic Units! ",
+    "target": "解锁六种史诗兵种！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6745,
+    "offset": 88,
+    "source": "Cavalry",
+    "target": "骑兵"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6759,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6761,
+    "offset": 88,
+    "source": "Your account:",
+    "target": "你的账户："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6767,
+    "offset": 88,
+    "source": "Heavy",
+    "target": "重型"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6777,
+    "offset": 88,
+    "source": "LVL 2",
+    "target": "2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6778,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6780,
+    "offset": 88,
+    "source": "Catapult ",
+    "target": "投石车"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6783,
+    "offset": 88,
+    "source": "Epic",
+    "target": "史诗"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6786,
+    "offset": 88,
+    "source": "Settings",
+    "target": "设置"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6788,
+    "offset": 88,
+    "source": "Level 1",
+    "target": "第1关"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6801,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6819,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6884,
+    "offset": 144,
+    "source": "Enemy Army",
+    "target": "敌方部队"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 6980,
+    "offset": 144,
+    "source": "Terms of Use",
+    "target": "使用条款"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7041,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7210,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7251,
+    "offset": 144,
+    "source": "Nickname",
+    "target": "昵称"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7366,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7375,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7479,
+    "offset": 144,
+    "source": "Password",
+    "target": "密码"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7535,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7554,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7562,
+    "offset": 144,
+    "source": "Privacy Policy",
+    "target": "隐私政策"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7570,
+    "offset": 144,
+    "source": "Level 1",
+    "target": "第1关"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7579,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7599,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7604,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7634,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7661,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7731,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7864,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7904,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7927,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7966,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 7991,
+    "offset": 144,
+    "source": "Username",
+    "target": "用户名"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 8026,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 8031,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 8043,
+    "offset": 144,
+    "source": "Defeats :",
+    "target": "失败："
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level1",
+    "id": 8080,
+    "offset": 144,
+    "source": "Wins :",
+    "target": "胜利："
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16980,
+    "source": "Trebuchet",
+    "target": "配重投石机"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16800,
+    "source": "Mage Tower",
+    "target": "法师塔"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16620,
+    "source": "War Elephant",
+    "target": "战象"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16444,
+    "source": "Catapult",
+    "target": "投石车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16268,
+    "source": "Giant",
+    "target": "巨人"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 16092,
+    "source": "Hwacha",
+    "target": "火箭车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 15740,
+    "source": "Cannon",
+    "target": "火炮"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 15564,
+    "source": "Chariot",
+    "target": "战车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 15392,
+    "source": "Bomb",
+    "target": "炸弹兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 15212,
+    "source": "Bear Rider",
+    "target": "熊骑兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 15040,
+    "source": "Mage",
+    "target": "法师"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 14860,
+    "source": "Organ Gun",
+    "target": "排炮"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 14684,
+    "source": "Pirate",
+    "target": "海盗"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 14508,
+    "source": "Knight",
+    "target": "骑士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 14332,
+    "source": "Camel",
+    "target": "骆驼骑兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 14152,
+    "source": "Berserker",
+    "target": "狂战士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 13976,
+    "source": "Shield",
+    "target": "盾兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 13796,
+    "source": "Musketeer",
+    "target": "火枪手"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 13620,
+    "source": "Ninja",
+    "target": "忍者"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 13100,
+    "source": "Guard",
+    "target": "卫兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12920,
+    "source": "Gladiator",
+    "target": "角斗士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12748,
+    "source": "Axe",
+    "target": "斧兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12572,
+    "source": "Spear",
+    "target": "长矛兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12396,
+    "source": "Archer",
+    "target": "弓箭手"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12220,
+    "source": "Crossbow",
+    "target": "弩兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 12048,
+    "source": "Man",
+    "target": "步兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 7020,
+    "source": "Wolf",
+    "target": "狼骑兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 6844,
+    "source": "Guardian",
+    "target": "守护者"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 6668,
+    "source": "Rhino",
+    "target": "犀牛"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 6492,
+    "source": "Minigun",
+    "target": "转管机枪"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 6312,
+    "source": "Fire Dragon",
+    "target": "火龙"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 6136,
+    "source": "Samurai",
+    "target": "武士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5960,
+    "source": "Sentinel",
+    "target": "哨卫"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5784,
+    "source": "Spartan",
+    "target": "斯巴达勇士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5604,
+    "source": "Berserker",
+    "target": "狂战士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5424,
+    "source": "Trebuchet",
+    "target": "配重投石机"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5244,
+    "source": "Organ Gun",
+    "target": "排炮"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 5064,
+    "source": "Bear Rider",
+    "target": "熊骑兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4892,
+    "source": "Mage",
+    "target": "法师"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4716,
+    "source": "Hwacha",
+    "target": "火箭车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4540,
+    "source": "Pirate",
+    "target": "海盗"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4364,
+    "source": "Camel",
+    "target": "骆驼骑兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4188,
+    "source": "Chariot",
+    "target": "战车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 4008,
+    "source": "Mage Tower",
+    "target": "法师塔"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 3488,
+    "source": "Ninja",
+    "target": "忍者"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 3316,
+    "source": "Bomb",
+    "target": "炸弹兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 3136,
+    "source": "War Elephant",
+    "target": "战象"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 2960,
+    "source": "Crossbow",
+    "target": "弩兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 2608,
+    "source": "Guard",
+    "target": "卫兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 2432,
+    "source": "Giant",
+    "target": "巨人"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 2256,
+    "source": "Spear",
+    "target": "长矛兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 2080,
+    "source": "Shield",
+    "target": "盾兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1908,
+    "source": "Axe",
+    "target": "斧兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1728,
+    "source": "Musketeer",
+    "target": "火枪手"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1552,
+    "source": "Catapult",
+    "target": "投石车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1380,
+    "source": "Man",
+    "target": "步兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1204,
+    "source": "Knight",
+    "target": "骑士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 1024,
+    "source": "Gladiator",
+    "target": "角斗士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 848,
+    "source": "Cannon",
+    "target": "火炮"
+  },
+  {
+    "kind": "display_name",
+    "file": "level1",
+    "id": 8170,
+    "offset": 672,
+    "source": "Archer",
+    "target": "弓箭手"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1961,
+    "offset": 88,
+    "source": "Cavalry",
+    "target": "骑兵"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1962,
+    "offset": 88,
+    "source": "Use the mouse wheel to zoom.",
+    "target": "滚动鼠标滚轮以缩放。"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1966,
+    "offset": 88,
+    "source": "Special",
+    "target": "特殊"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1967,
+    "offset": 88,
+    "source": "Use the joystick to move",
+    "target": "使用摇杆移动"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1970,
+    "offset": 88,
+    "source": "Heavy",
+    "target": "重型"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1972,
+    "offset": 88,
+    "source": "Use the joystick and drag to move around",
+    "target": "使用摇杆并拖动以移动视角"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1973,
+    "offset": 88,
+    "source": "ARMY: 0/35",
+    "target": "兵力：0/35"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1975,
+    "offset": 88,
+    "source": "Free look",
+    "target": "自由视角"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1980,
+    "offset": 88,
+    "source": "Ranged",
+    "target": "远程"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1981,
+    "offset": 88,
+    "source": "GOLD: 1000",
+    "target": "金币：1000"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1982,
+    "offset": 88,
+    "source": "Drag two fingers to zoom.",
+    "target": "双指拖动以缩放。"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1983,
+    "offset": 88,
+    "source": "Catapult - LVL 2",
+    "target": "投石车 - 2级"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1995,
+    "offset": 88,
+    "source": "Loading",
+    "target": "加载中"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 1996,
+    "offset": 88,
+    "source": "Use the arrows and drag to move around",
+    "target": "使用方向键并拖动以移动视角"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2000,
+    "offset": 88,
+    "source": "Place Army",
+    "target": "布置部队"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2002,
+    "offset": 88,
+    "source": "Tutorial is completed !!",
+    "target": "教程完成！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2006,
+    "offset": 88,
+    "source": "Zoom",
+    "target": "缩放"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2007,
+    "offset": 88,
+    "source": "Use the arrows to move",
+    "target": "使用方向键移动"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2010,
+    "offset": 88,
+    "source": "Tap \"GO!\" to start the battle.",
+    "target": "点击“GO!”开始战斗。"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2011,
+    "offset": 88,
+    "source": "Move",
+    "target": "移动"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2012,
+    "offset": 88,
+    "source": "Melee",
+    "target": "近战"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2014,
+    "offset": 88,
+    "source": "Fight !",
+    "target": "战斗！"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2015,
+    "offset": 88,
+    "source": "Well done",
+    "target": "做得好"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2020,
+    "offset": 88,
+    "source": "Free look",
+    "target": "自由视角"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2021,
+    "offset": 88,
+    "source": "Drag to place your army.",
+    "target": "拖动以布置部队。"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2022,
+    "offset": 88,
+    "source": "Epic",
+    "target": "史诗"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2023,
+    "offset": 88,
+    "source": "Move",
+    "target": "移动"
+  },
+  {
+    "kind": "serialized_text",
+    "file": "level2",
+    "id": 2024,
+    "offset": 88,
+    "source": "Zoom",
+    "target": "缩放"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 4604,
+    "source": "Sentinel",
+    "target": "哨卫"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 4428,
+    "source": "Spartan",
+    "target": "斯巴达勇士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 2416,
+    "source": "Guard",
+    "target": "卫兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 2240,
+    "source": "Giant",
+    "target": "巨人"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 2064,
+    "source": "Spear",
+    "target": "长矛兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1888,
+    "source": "Shield",
+    "target": "盾兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1716,
+    "source": "Axe",
+    "target": "斧兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1536,
+    "source": "Musketeer",
+    "target": "火枪手"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1360,
+    "source": "Catapult",
+    "target": "投石车"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1188,
+    "source": "Man",
+    "target": "步兵"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 1012,
+    "source": "Knight",
+    "target": "骑士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 832,
+    "source": "Gladiator",
+    "target": "角斗士"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 656,
+    "source": "Cannon",
+    "target": "火炮"
+  },
+  {
+    "kind": "display_name",
+    "file": "level2",
+    "id": 2257,
+    "offset": 480,
+    "source": "Archer",
+    "target": "弓箭手"
+  },
+  {
+    "kind": "literal",
+    "index": 122,
+    "source": " (MAX)",
+    "target": "（满级）"
+  },
+  {
+    "kind": "literal",
+    "index": 179,
+    "source": " Wins The Battle!",
+    "target": "赢得战斗！"
+  },
+  {
+    "kind": "literal",
+    "index": 1593,
+    "source": "Add Some Troops First!",
+    "target": "请先放置兵种！"
+  },
+  {
+    "kind": "literal",
+    "index": 2002,
+    "source": "Blue Team Has No Troops!",
+    "target": "蓝方尚未布阵！"
+  },
+  {
+    "kind": "literal",
+    "index": 2003,
+    "source": "Blue Team Won The Battle!",
+    "target": "蓝方赢得战斗！"
+  },
+  {
+    "kind": "literal",
+    "index": 3348,
+    "source": "Epic Level ",
+    "target": "史诗关卡 "
+  },
+  {
+    "kind": "literal",
+    "index": 3623,
+    "source": "First Time Win Reward - ",
+    "target": "首次胜利奖励 - "
+  },
+  {
+    "kind": "literal",
+    "index": 3624,
+    "source": "First Win All Previous Epic Levels",
+    "target": "请先通关前面的所有史诗关卡"
+  },
+  {
+    "kind": "literal",
+    "index": 3625,
+    "source": "First Win All Previous Levels",
+    "target": "请先通关前面的所有关卡"
+  },
+  {
+    "kind": "literal",
+    "index": 4765,
+    "source": "LVL ",
+    "target": "等级 "
+  },
+  {
+    "kind": "literal",
+    "index": 4809,
+    "source": "Level ",
+    "target": "关卡 "
+  },
+  {
+    "kind": "literal",
+    "index": 4911,
+    "source": "MAX",
+    "target": "满级"
+  },
+  {
+    "kind": "literal",
+    "index": 5949,
+    "source": "Red Team Has No Troops!",
+    "target": "红方尚未布阵！"
+  },
+  {
+    "kind": "literal",
+    "index": 5950,
+    "source": "Red Team Won The Battle!",
+    "target": "红方赢得战斗！"
+  },
+  {
+    "kind": "literal",
+    "index": 5985,
+    "source": "Regular Win Reward - ",
+    "target": "胜利奖励 - "
+  },
+  {
+    "kind": "literal",
+    "index": 8112,
+    "source": "Upgrade Required",
+    "target": "需要升级"
+  },
+  {
+    "kind": "literal",
+    "index": 8454,
+    "source": "You need more gems",
+    "target": "宝石不足"
+  }
+]

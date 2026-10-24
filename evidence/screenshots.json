@@ -1,0 +1,217 @@
+[
+  {
+    "path": "output/playwright/final/baseline-battle.png",
+    "bytes": 226288,
+    "sha256": "1dd8b720f02c8142c7d285883ac6e55f6bc743495ffd815e605915b7008c223a"
+  },
+  {
+    "path": "output/playwright/final/baseline-custom.png",
+    "bytes": 389865,
+    "sha256": "6b40e609f83165cad396a1a9bf30c37d0109d3c83001838990bd011adc5bc2ce"
+  },
+  {
+    "path": "output/playwright/final/baseline-formation.png",
+    "bytes": 343209,
+    "sha256": "81c08980595561874485a320133b6f468962021d659bd8a44d39422b5b814b1a"
+  },
+  {
+    "path": "output/playwright/final/baseline-home.png",
+    "bytes": 461429,
+    "sha256": "68d582053d982ad5e195b3708df447a8e2d4c9a1b9cf403407e0e2a2b9cc8f38"
+  },
+  {
+    "path": "output/playwright/final/baseline-pause.png",
+    "bytes": 255966,
+    "sha256": "90732c7220f2fb86fba9a7ec0b6500b62227b897aa7f072783cf35fffdcee5f7"
+  },
+  {
+    "path": "output/playwright/final/baseline-result.png",
+    "bytes": 182671,
+    "sha256": "78d0875d5b519b80d927ce76e1abe06981e572de0e0b6a8857b7185bf8074756"
+  },
+  {
+    "path": "output/playwright/final/baseline-resume.png",
+    "bytes": 226156,
+    "sha256": "da651c13e8f5c70407eefda854815790dbb8f4ca2deac629d1848983fe860841"
+  },
+  {
+    "path": "output/playwright/final/baseline-settings.png",
+    "bytes": 118840,
+    "sha256": "f678a435e08a92df0141d4324e4ed93603dd66983c0060cac1833c023e357eb5"
+  },
+  {
+    "path": "output/playwright/final/localized-battle.png",
+    "bytes": 215893,
+    "sha256": "173e4677ef798d36ded2aeb963af90fd68dacdebae40e0ad1d9ca8655a988ce6"
+  },
+  {
+    "path": "output/playwright/final/localized-custom.png",
+    "bytes": 371203,
+    "sha256": "97c7586ec85376564d37240ba33a7237d0446ab401e7b2b79d5e92b12f5a5aa6"
+  },
+  {
+    "path": "output/playwright/final/localized-formation.png",
+    "bytes": 329147,
+    "sha256": "37c27a19ff76b1e79c7c473e38d9920567b772fc78fb4b02f7983e6b0ed3c939"
+  },
+  {
+    "path": "output/playwright/final/localized-home.png",
+    "bytes": 438592,
+    "sha256": "f9bb100f328e7e82fd94f3f2c3410b812ebb4f5152b00f851fc4a58f632b061f"
+  },
+  {
+    "path": "output/playwright/final/localized-pause.png",
+    "bytes": 238832,
+    "sha256": "1ea698713e7302315c6914a62e8f167b023fecf2c684bae8d28a614b499214f8"
+  },
+  {
+    "path": "output/playwright/final/localized-result.png",
+    "bytes": 171755,
+    "sha256": "79cec2e959e90bc841e52e1231505297f72f75a3601d7ee4fa3a1687da636f25"
+  },
+  {
+    "path": "output/playwright/final/localized-resume.png",
+    "bytes": 215591,
+    "sha256": "f5a2792206524b723fb456696324dc33a3abe6864c73c7f1d7a7ec65e6eafe8a"
+  },
+  {
+    "path": "output/playwright/final/localized-settings.png",
+    "bytes": 108213,
+    "sha256": "67a3d9ed55fb62bc977485b2b42c9352192b553612716450d097094a61396d3e"
+  },
+  {
+    "path": "output/playwright/final/menus-home.png",
+    "bytes": 427278,
+    "sha256": "22d90a8a9b3b0c9448f800983d6fa1c397b40f8b5ae5eeee59bbd2d1bf91b22b"
+  },
+  {
+    "path": "output/playwright/final/menus-levels.png",
+    "bytes": 323889,
+    "sha256": "cf479eeb045e16cebc0920dd1f14845a4c43253dd63094fcbd0bf745f7e2c109"
+  },
+  {
+    "path": "output/playwright/final/menus-shop.png",
+    "bytes": 451157,
+    "sha256": "0396a719ebf4e69d212144d18049068e11f008ccc90f0abd2684c8c5a8d89d5c"
+  },
+  {
+    "path": "output/playwright/final/menus-upgrades.png",
+    "bytes": 655667,
+    "sha256": "099aaa79e852061a55d194e1ccef35a909d654dad4b9bfac8591d866381e6e88"
+  },
+  {
+    "path": "output/playwright/final/mobile-battle.png",
+    "bytes": 91585,
+    "sha256": "41ca3ce2f2adfd90d4d0bbdf3b95712204cd20ace3d76eafc5206f37ff69340d"
+  },
+  {
+    "path": "output/playwright/final/mobile-custom.png",
+    "bytes": 161435,
+    "sha256": "854bfb337117771c629ebbe8272b7ae70e265a4fc783e648c592f096684f3c23"
+  },
+  {
+    "path": "output/playwright/final/mobile-formation.png",
+    "bytes": 148618,
+    "sha256": "7aba34b4552d9e05eb869b61cf631351692898702a29f255ae635d920d010ab2"
+  },
+  {
+    "path": "output/playwright/final/mobile-home.png",
+    "bytes": 172769,
+    "sha256": "475d7b60cbc73fa00db68d644c049a267ae482c267e78dae6f37a21e1282cc39"
+  },
+  {
+    "path": "output/playwright/final/mobile-pause.png",
+    "bytes": 97231,
+    "sha256": "0a822b9d91260e199330a32a6998d6f45ebd1e558b165f0540450378167d8890"
+  },
+  {
+    "path": "output/playwright/final/mobile-result-dismissed.png",
+    "bytes": 95390,
+    "sha256": "8e2be1520bc559f02bef90dff0334b805d711d554c166a47b767ed1def6a6592"
+  },
+  {
+    "path": "output/playwright/final/mobile-result.png",
+    "bytes": 71224,
+    "sha256": "ec2c6f0e04d15b806fa4efc54a0ae828f4d476f3de7455411c03878360a3fe52"
+  },
+  {
+    "path": "output/playwright/final/mobile-resume.png",
+    "bytes": 91158,
+    "sha256": "61fc8d9f80c35d060e92342aeecca48057b72c8be27f5085b41aa369f3b4762c"
+  },
+  {
+    "path": "output/playwright/final/mobile-settings.png",
+    "bytes": 46488,
+    "sha256": "87e26946fdcfc9d783e76e4dfbff33690ac505d6d2ad4e84feb544da5df0ec4b"
+  },
+  {
+    "path": "output/playwright/final/probe-budget-after.png",
+    "bytes": 277131,
+    "sha256": "4f4b569b303e081e044902933edf84cf550fd0640cedf3466a6a44e67466ddc8"
+  },
+  {
+    "path": "output/playwright/final/probe-budget-before.png",
+    "bytes": 325139,
+    "sha256": "fbeb7afc6ae8b75bd6fc537dbd0c6ae0b6f76a05cf189e84596074e6004bf4bd"
+  },
+  {
+    "path": "output/playwright/final/probe-budget-limit.png",
+    "bytes": 284905,
+    "sha256": "d00c7cd0d031e4804408802d6e5685ef359837d9c5eeae68d7d7f3a00318dc3a"
+  },
+  {
+    "path": "output/playwright/final/probe-costly-unit.png",
+    "bytes": 329303,
+    "sha256": "82f73dc8504c4041cd27825749afcb6162c751798c3075a734b27fab8ffb6bd5"
+  },
+  {
+    "path": "output/playwright/final/probe-home.png",
+    "bytes": 434727,
+    "sha256": "d935bebaf63d146d243e081a644eece9f1d603fe27d057821ba9011a71fc3b7b"
+  },
+  {
+    "path": "output/playwright/final/resources-home.png",
+    "bytes": 430731,
+    "sha256": "be8bb8ac27fdd337909d06a0878090fd321c8d7e48d97e80633ba0d667ef448c"
+  },
+  {
+    "path": "output/playwright/final/resources-normal-upgrades.png",
+    "bytes": 648447,
+    "sha256": "4091920de45fad79273c913db99091ae5fe73edcfece6c264aa0f0930e525b19"
+  },
+  {
+    "path": "output/playwright/final/resources-off.png",
+    "bytes": 643677,
+    "sha256": "44aeb9c807738abf5a2bef6df18e7844806d370840c11cc5f4dce43bbbbaa44c"
+  },
+  {
+    "path": "output/playwright/final/resources-refresh.png",
+    "bytes": 642539,
+    "sha256": "c3f8d8107d65d1daf6159e3f0e9ce719d366709f514ade3209c1fa493a6ab7fb"
+  },
+  {
+    "path": "output/playwright/final/resources-reopen.png",
+    "bytes": 636991,
+    "sha256": "32f64846178a1bd4beb825e6165e6fae101edd3af963f1d60d6106eb4b393afc"
+  },
+  {
+    "path": "output/playwright/final/resources-sandbox-before.png",
+    "bytes": 649758,
+    "sha256": "58b5193bf79ec7a1c5db60c85c3a6f7630019eb80da3aaebf71e554681b0c0d3"
+  },
+  {
+    "path": "output/playwright/final/resources-spend-1.png",
+    "bytes": 653816,
+    "sha256": "697078dbb506125f86627cfbd7f959c6e9f3fccb7aec406baea690a943582b72"
+  },
+  {
+    "path": "output/playwright/final/resources-spend-2.png",
+    "bytes": 651349,
+    "sha256": "d32d0531af380fafe279b198999c1d2465e7262546495456a97d8af1fc1a83e2"
+  },
+  {
+    "path": "output/playwright/final/resources-spend-3.png",
+    "bytes": 647265,
+    "sha256": "235f73411f0a07a4f5aa5fc0a07144f6f2f4da86acd076a82940d7b14bce4b2e"
+  }
+]

@@ -1,0 +1,2048 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-24",
+  "browser": "Chromium 156.0.8078.4",
+  "sourcePhaseNote": "Desktop lifecycle run preceded separate Boss-key correction; all 8 final desktop epic selections/placements reviewed in epic-full, and mobile lifecycle rerun after correction. Historical all37Level3 assertion checked base keys only; final mobile additionally checks all 8 Boss keys.",
+  "scenarios": {
+    "desktop": {
+      "checks": [
+        {
+          "time": 1792829751.5948806,
+          "kind": "checks",
+          "default": true,
+          "all37Level3": true,
+          "ordinarySaveUnchanged": true,
+          "reload": true,
+          "reopen": true,
+          "off": true,
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "touch": false
+        }
+      ],
+      "prefs": [
+        {
+          "time": 1792829580.179563,
+          "kind": "prefs",
+          "name": "normal-before",
+          "values": {
+            "AK47": 0,
+            "AccountCreated": 0,
+            "Archer": 0,
+            "AxeMan": 0,
+            "Ballista": 0,
+            "BearRider": 0,
+            "Berseker": 0,
+            "BestScore": 0,
+            "Camel": 0,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 1,
+            "CannonMan": 0,
+            "CatapultMan": 0,
+            "Chariot": 0,
+            "Consumables": 150250,
+            "Crossbow": 0,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 0,
+            "FacebookReward": 1,
+            "FireDragonNEW": "locked",
+            "FireDragonNEWBoss": 0,
+            "Giant": 0,
+            "Gladiator": 0,
+            "Guard": 0,
+            "Guardian": "locked",
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 0,
+            "Kamikaze": 0,
+            "Knight": 0,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 0,
+            "LockedFireDragon": 1,
+            "LockedGuardian": 1,
+            "LockedMinigun": 1,
+            "LockedPlayers": 1,
+            "LockedRhino": 1,
+            "LockedSamurai": 1,
+            "LockedSentinel": 1,
+            "LockedSpartan": 1,
+            "LockedTopPanel": 0,
+            "LockedWolf": 1,
+            "M16": 0,
+            "Mage": 0,
+            "MageTower": 0,
+            "Man": 0,
+            "Minigun": "locked",
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 0,
+            "NickName": "",
+            "Ninja": 0,
+            "OrganGun": 0,
+            "Password": "",
+            "Pirate": 0,
+            "Ranking": 1000,
+            "Rhino": "locked",
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": "locked",
+            "SamuraiNEWBoss": 0,
+            "Sentinel": "locked",
+            "SentinelBoss": 0,
+            "ShieldMan": 0,
+            "SoundSetUp": 1,
+            "Spartan": "locked",
+            "SpartanBoss": 0,
+            "SpearMan": 0,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 0,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 0,
+            "Wolf": "locked",
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "3",
+            "unity.player_sessionid": "6173634865956211650"
+          }
+        },
+        {
+          "time": 1792829596.661938,
+          "kind": "prefs",
+          "name": "default",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 0,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 0,
+            "Sentinel": 2,
+            "SentinelBoss": 0,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 0,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "7",
+            "unity.player_sessionid": "1711584553602227172"
+          }
+        },
+        {
+          "time": 1792829702.1175568,
+          "kind": "prefs",
+          "name": "post-battle",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000050019,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 0,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 0,
+            "Sentinel": 2,
+            "SentinelBoss": 0,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 0,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "9",
+            "unity.player_sessionid": "2859080647908474002"
+          }
+        },
+        {
+          "time": 1792829718.506125,
+          "kind": "prefs",
+          "name": "refresh",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 0,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 0,
+            "Sentinel": 2,
+            "SentinelBoss": 0,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 0,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "10",
+            "unity.player_sessionid": "2647018721528805966"
+          }
+        },
+        {
+          "time": 1792829735.120462,
+          "kind": "prefs",
+          "name": "reopen",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 0,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 0,
+            "Sentinel": 2,
+            "SentinelBoss": 0,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 0,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "11",
+            "unity.player_sessionid": "6807560808714771165"
+          }
+        },
+        {
+          "time": 1792829751.5104954,
+          "kind": "prefs",
+          "name": "off",
+          "values": {
+            "AK47": 0,
+            "AccountCreated": 0,
+            "Archer": 0,
+            "AxeMan": 0,
+            "Ballista": 0,
+            "BearRider": 0,
+            "Berseker": 0,
+            "BestScore": 0,
+            "Camel": 0,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 1,
+            "CannonMan": 0,
+            "CatapultMan": 0,
+            "Chariot": 0,
+            "Consumables": 200250,
+            "Crossbow": 0,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:09:24",
+            "EpicLevelsCompleted": 0,
+            "FacebookReward": 1,
+            "FireDragonNEW": "locked",
+            "FireDragonNEWBoss": 0,
+            "Giant": 0,
+            "Gladiator": 0,
+            "Guard": 0,
+            "Guardian": "locked",
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 0,
+            "Kamikaze": 0,
+            "Knight": 0,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 0,
+            "LockedFireDragon": 1,
+            "LockedGuardian": 1,
+            "LockedMinigun": 1,
+            "LockedPlayers": 1,
+            "LockedRhino": 1,
+            "LockedSamurai": 1,
+            "LockedSentinel": 1,
+            "LockedSpartan": 1,
+            "LockedTopPanel": 0,
+            "LockedWolf": 1,
+            "M16": 0,
+            "Mage": 0,
+            "MageTower": 0,
+            "Man": 0,
+            "Minigun": "locked",
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 0,
+            "NickName": "",
+            "Ninja": 0,
+            "OrganGun": 0,
+            "Password": "",
+            "Pirate": 0,
+            "Ranking": 1000,
+            "Rhino": "locked",
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": "locked",
+            "SamuraiNEWBoss": 0,
+            "Sentinel": "locked",
+            "SentinelBoss": 0,
+            "ShieldMan": 0,
+            "SoundSetUp": 1,
+            "Spartan": "locked",
+            "SpartanBoss": 0,
+            "SpearMan": 0,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:09:24",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 0,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 0,
+            "Wolf": "locked",
+            "WolfBoss": 0,
+            "unity.cloud_userid": "4d962c88c03394b54a142c23b67e3c7c",
+            "unity.player_session_count": "4",
+            "unity.player_sessionid": "5458562951201911732"
+          }
+        }
+      ],
+      "pageerrors": [],
+      "consoleErrors": [
+        {
+          "time": 1792829564.1666734,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829564.1666734,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829566.1768973,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829566.1768973,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829566.18673,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829566.18673,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829567.0738146,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829567.0738146,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829568.971766,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829568.971766,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829580.5666757,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829580.5666757,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829582.5756004,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829582.5756004,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829582.5786145,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829582.5786145,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829583.4555376,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829583.4555376,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829585.456082,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829585.456082,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829599.8002706,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829599.8002706,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829601.8060806,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829601.807092,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829601.810604,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829601.810604,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829602.6841295,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829602.6841295,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829604.6841884,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829604.6841884,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829625.875766,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829625.875766,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829627.8844452,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829627.8844452,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829627.8881576,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829627.8881576,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829628.7686465,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829628.7686465,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829630.7676196,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829630.76862,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829660.7684443,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829660.7684443,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829702.4212976,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829702.4223647,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829704.4285192,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829704.4285192,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829704.4312763,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829704.4323542,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829705.314339,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829705.314339,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829707.3151116,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829707.3151116,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        }
+      ],
+      "eventsSHA256": "ec4a177818e43dcf1a6f7943f52a0893a58c55a5f369f3a9a1a8b3d295c8d6f4"
+    },
+    "mobile": {
+      "checks": [
+        {
+          "time": 1792830105.0108202,
+          "kind": "checks",
+          "default": true,
+          "all37Level3": true,
+          "ordinarySaveUnchanged": true,
+          "reload": true,
+          "reopen": true,
+          "off": true,
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "touch": true
+        }
+      ],
+      "prefs": [
+        {
+          "time": 1792829943.6584845,
+          "kind": "prefs",
+          "name": "normal-before",
+          "values": {
+            "AK47": 0,
+            "AccountCreated": 0,
+            "Archer": 0,
+            "AxeMan": 0,
+            "Ballista": 0,
+            "BearRider": 0,
+            "Berseker": 0,
+            "BestScore": 0,
+            "Camel": 0,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 1,
+            "CannonMan": 0,
+            "CatapultMan": 0,
+            "Chariot": 0,
+            "Consumables": 150250,
+            "Crossbow": 0,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 0,
+            "FacebookReward": 1,
+            "FireDragonNEW": "locked",
+            "FireDragonNEWBoss": 0,
+            "Giant": 0,
+            "Gladiator": 0,
+            "Guard": 0,
+            "Guardian": "locked",
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 0,
+            "Kamikaze": 0,
+            "Knight": 0,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 0,
+            "LockedFireDragon": 1,
+            "LockedGuardian": 1,
+            "LockedMinigun": 1,
+            "LockedPlayers": 1,
+            "LockedRhino": 1,
+            "LockedSamurai": 1,
+            "LockedSentinel": 1,
+            "LockedSpartan": 1,
+            "LockedTopPanel": 0,
+            "LockedWolf": 1,
+            "M16": 0,
+            "Mage": 0,
+            "MageTower": 0,
+            "Man": 0,
+            "Minigun": "locked",
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 0,
+            "NickName": "",
+            "Ninja": 0,
+            "OrganGun": 0,
+            "Password": "",
+            "Pirate": 0,
+            "Ranking": 1000,
+            "Rhino": "locked",
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": "locked",
+            "SamuraiNEWBoss": 0,
+            "Sentinel": "locked",
+            "SentinelBoss": 0,
+            "ShieldMan": 0,
+            "SoundSetUp": 1,
+            "Spartan": "locked",
+            "SpartanBoss": 0,
+            "SpearMan": 0,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 0,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 0,
+            "Wolf": "locked",
+            "WolfBoss": 0,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "3",
+            "unity.player_sessionid": "7377299643685732267"
+          }
+        },
+        {
+          "time": 1792829960.1145854,
+          "kind": "prefs",
+          "name": "default",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 2,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 2,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 2,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 2,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 2,
+            "Sentinel": 2,
+            "SentinelBoss": 2,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 2,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 2,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "7",
+            "unity.player_sessionid": "4232139144886391060"
+          }
+        },
+        {
+          "time": 1792830055.7374706,
+          "kind": "prefs",
+          "name": "post-battle",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000050019,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 2,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 2,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 2,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 2,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 2,
+            "Sentinel": 2,
+            "SentinelBoss": 2,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 2,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 2,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "9",
+            "unity.player_sessionid": "46550881476590460"
+          }
+        },
+        {
+          "time": 1792830072.0658686,
+          "kind": "prefs",
+          "name": "refresh",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 2,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 2,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 2,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 2,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 2,
+            "Sentinel": 2,
+            "SentinelBoss": 2,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 2,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 2,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "10",
+            "unity.player_sessionid": "5793812370436201356"
+          }
+        },
+        {
+          "time": 1792830088.5870368,
+          "kind": "prefs",
+          "name": "reopen",
+          "values": {
+            "AK47": 2,
+            "AccountCreated": 0,
+            "Archer": 2,
+            "AxeMan": 2,
+            "Ballista": 2,
+            "BearRider": 2,
+            "Berseker": 2,
+            "BestScore": 0,
+            "Camel": 2,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 0,
+            "CannonMan": 2,
+            "CatapultMan": 2,
+            "Chariot": 2,
+            "Consumables": 1000049999,
+            "Crossbow": 2,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 10,
+            "FacebookReward": 1,
+            "FireDragonNEW": 2,
+            "FireDragonNEWBoss": 2,
+            "Giant": 2,
+            "Gladiator": 2,
+            "Guard": 2,
+            "Guardian": 2,
+            "GuardianBoss": 2,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 2,
+            "Kamikaze": 2,
+            "Knight": 2,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 105,
+            "LockedFireDragon": 0,
+            "LockedGuardian": 0,
+            "LockedMinigun": 0,
+            "LockedPlayers": 1,
+            "LockedRhino": 0,
+            "LockedSamurai": 0,
+            "LockedSentinel": 0,
+            "LockedSpartan": 0,
+            "LockedTopPanel": 0,
+            "LockedWolf": 0,
+            "M16": 2,
+            "Mage": 2,
+            "MageTower": 2,
+            "Man": 2,
+            "Minigun": 2,
+            "MinigunBoss": 2,
+            "MusicSetUp": 1,
+            "Musketeer": 2,
+            "NickName": "",
+            "Ninja": 2,
+            "OrganGun": 2,
+            "Password": "",
+            "Pirate": 2,
+            "Ranking": 1000,
+            "Rhino": 2,
+            "RhinoBoss": 2,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": 2,
+            "SamuraiNEWBoss": 2,
+            "Sentinel": 2,
+            "SentinelBoss": 2,
+            "ShieldMan": 2,
+            "SoundSetUp": 1,
+            "Spartan": 2,
+            "SpartanBoss": 2,
+            "SpearMan": 2,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 2,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 2,
+            "Wolf": 2,
+            "WolfBoss": 2,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "11",
+            "unity.player_sessionid": "3009333105941455073"
+          }
+        },
+        {
+          "time": 1792830104.9734125,
+          "kind": "prefs",
+          "name": "off",
+          "values": {
+            "AK47": 0,
+            "AccountCreated": 0,
+            "Archer": 0,
+            "AxeMan": 0,
+            "Ballista": 0,
+            "BearRider": 0,
+            "Berseker": 0,
+            "BestScore": 0,
+            "Camel": 0,
+            "CanShowAds": 1,
+            "CanShowRatePopUp": 1,
+            "CannonMan": 0,
+            "CatapultMan": 0,
+            "Chariot": 0,
+            "Consumables": 200250,
+            "Crossbow": 0,
+            "DailyReferenceTime": "2000/1/1 0:00:00",
+            "DailyWinsMultiplayer": 0,
+            "DateInstallation": "2026/10/24 16:12:28",
+            "EpicLevelsCompleted": 0,
+            "FacebookReward": 1,
+            "FireDragonNEW": "locked",
+            "FireDragonNEWBoss": 0,
+            "Giant": 0,
+            "Gladiator": 0,
+            "Guard": 0,
+            "Guardian": "locked",
+            "GuardianBoss": 0,
+            "HasBoughtIAP": 0,
+            "HasSubscriptionGoogle": 0,
+            "Hwacha": 0,
+            "Kamikaze": 0,
+            "Knight": 0,
+            "LastDayOpen": "0001/1/1 0:00:00",
+            "LevelsCompleted": 0,
+            "LockedFireDragon": 1,
+            "LockedGuardian": 1,
+            "LockedMinigun": 1,
+            "LockedPlayers": 1,
+            "LockedRhino": 1,
+            "LockedSamurai": 1,
+            "LockedSentinel": 1,
+            "LockedSpartan": 1,
+            "LockedTopPanel": 0,
+            "LockedWolf": 1,
+            "M16": 0,
+            "Mage": 0,
+            "MageTower": 0,
+            "Man": 0,
+            "Minigun": "locked",
+            "MinigunBoss": 0,
+            "MusicSetUp": 1,
+            "Musketeer": 0,
+            "NickName": "",
+            "Ninja": 0,
+            "OrganGun": 0,
+            "Password": "",
+            "Pirate": 0,
+            "Ranking": 1000,
+            "Rhino": "locked",
+            "RhinoBoss": 0,
+            "RunOnlyOnce": 0,
+            "SamuraiNEW": "locked",
+            "SamuraiNEWBoss": 0,
+            "Sentinel": "locked",
+            "SentinelBoss": 0,
+            "ShieldMan": 0,
+            "SoundSetUp": 1,
+            "Spartan": "locked",
+            "SpartanBoss": 0,
+            "SpearMan": 0,
+            "SubscriptionAppleExpirationDate": "0001/1/1 0:00:00",
+            "SubscriptionCollectedDays": 9999,
+            "SubscriptionPurchaseDate": "2026/10/24 8:12:28",
+            "TermsAccepted": 1,
+            "TrebuchetMan": 0,
+            "TutorialCanShow": 1,
+            "TwitterReward": 1,
+            "UserName": "",
+            "WarElephant": 0,
+            "Wolf": "locked",
+            "WolfBoss": 0,
+            "unity.cloud_userid": "6ffc8ac23709d37caab6cc21855a64e2",
+            "unity.player_session_count": "4",
+            "unity.player_sessionid": "7071828742026735433"
+          }
+        }
+      ],
+      "pageerrors": [],
+      "consoleErrors": [
+        {
+          "time": 1792829927.6402729,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829927.6402729,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829929.6517138,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829929.652716,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829929.663395,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829929.663395,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829930.665368,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829930.665368,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829932.4140875,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829932.4140875,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829944.0573623,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829944.058363,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829946.0641289,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829946.0656354,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829946.0691578,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829946.0691578,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829946.9336221,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829946.9336221,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829948.9324305,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829948.9324305,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829963.076113,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829963.076113,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829965.0837142,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829965.0837142,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829965.0869207,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829965.0869207,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829965.9639547,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829965.9639547,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829967.960262,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829967.960262,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829985.7716622,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829985.7716622,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829987.7794313,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829987.7794313,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829987.7841623,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829987.7841623,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829988.656928,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829988.656928,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792829990.656672,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792829990.656672,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830020.6575012,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830020.6575012,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830056.0235739,
+          "kind": "console-error",
+          "text": "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830056.0235739,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830058.032892,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830058.032892,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830058.0368936,
+          "kind": "console-error",
+          "text": "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830058.0368936,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830058.919568,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830058.919568,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        },
+        {
+          "time": 1792830060.9202182,
+          "kind": "console-error",
+          "text": "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked."
+        },
+        {
+          "time": 1792830060.9202182,
+          "kind": "console-error",
+          "text": "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy."
+        }
+      ],
+      "eventsSHA256": "57f75533c89e2802d05c20b0ce79a5fc3ae35085f23ee8eb6efe8344c8cb2d94"
+    }
+  },
+  "visualReview": {
+    "epicTroops": [
+      "Spartan",
+      "Sentinel",
+      "SamuraiNEW",
+      "Minigun",
+      "FireDragonNEW",
+      "Rhino",
+      "Guardian",
+      "Wolf"
+    ],
+    "epicSelectedLevel": 3,
+    "epicActualPlacedCounts": [
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "epicReceipts": "epic-full/unit-N-selected.png and unit-N-placed.png",
+    "level105": {
+      "originalGoldBudget": 6000,
+      "sandboxGoldBefore": 999999999,
+      "sandboxGoldAfter": 999989499,
+      "actualGoldSpent": 10500,
+      "actualSpartans": 15
+    },
+    "custom": {
+      "originalCap": 120,
+      "configuredCap": 1000,
+      "actualUnitsPlaced": 163,
+      "actualCost": 3260
+    },
+    "battle": "desktop and final mobile blue-team victory +20; pause/resume screenshots reviewed"
+  },
+  "limits": [
+    "Finite balance and 1000 configured cap, not mathematical infinity",
+    "No actual Android device or 1000-unit battle stress test",
+    "Canvas Chinese remains partial",
+    "No remote ownership, IAP receipt, subscription or account edits"
+  ],
+  "screenshots": [
+    {
+      "path": "output/playwright/v2/desktop/battle-result-dismissed.png",
+      "sha256": "de27d71b02272432a18c327b1022c6657f78358772bedc4842b845a0deb48f0d"
+    },
+    {
+      "path": "output/playwright/v2/desktop/battle-result.png",
+      "sha256": "0e7ba8224057d37d1fe3c3d9a333a8841a9da4d4b0ba202bd3cb311fd0aa08e7"
+    },
+    {
+      "path": "output/playwright/v2/desktop/default.png",
+      "sha256": "8e3a9bbdba49b563c7aeb7092b1cfb05f39b20517dd692a7a7466114d2578c97"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-1.png",
+      "sha256": "4151e269c296b4a98622e967c3ae5e94259d2d2ae47402d000e1930546adca3d"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-2.png",
+      "sha256": "201a015df4155e219b3cce0e4c6fecb0cf36a278820b0d882c310c1083b4edb4"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-3.png",
+      "sha256": "2feb73089238ce0e643a1b8f5cbe23fb8a87f2bacb6af678412656a8f931e15c"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-4.png",
+      "sha256": "906dc819c86d7e790d529ca38a4db1a97f85502b604ec7d7f3bc68033c389ef9"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-5.png",
+      "sha256": "ece75cb4f4fbbb5c08419e1a7225e116a0926c59ce9d4063dcc6331285aa3e25"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-6.png",
+      "sha256": "b6b84e148346530c14811f6f2b9c6a273850b3bc606fc22293c4f68657c1bf7e"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-7.png",
+      "sha256": "e15dfd1ca855a7a4dc37a9eb247ac40e786217a2658e87154a8e370cea6c998d"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-8.png",
+      "sha256": "33b657c4df966e286c7fee7053caa1bfc5a2ad9c252ca19d9102f7e992f17f25"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-available.png",
+      "sha256": "3530c7f5087cedf1d4fa238538d295da7dc0ee2b2b6ccfa06063acef1453f5e9"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-1.png",
+      "sha256": "479a1b8c9e78adc65199fce2255ac028f557232fb3c978ba4ec60921c4f7f803"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-2.png",
+      "sha256": "8e4482f1e841e872dd34d1a7470454e85c0b8983130371b48a58e526058fc04e"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-3.png",
+      "sha256": "ccd6d13693c142a7b9aa2f9b5415dda79f0860aedee5e39c9834e758a3bb2461"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-4.png",
+      "sha256": "bbf7d5742ef7d4a86775f7d32a7f4d3ce28b4af995bd26d46fc832df0f4d8915"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-5.png",
+      "sha256": "8e2b7807fc3c4be0362d7a971d509aa8527b01a24aa1b81e091143946d7f3739"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-6.png",
+      "sha256": "76b728303b4f621572c348bc552ea430211e227aec4a00fed73cad1c697b661e"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-7.png",
+      "sha256": "34ade751607904a01cd5ec53412b60f9c74cef8774179afad14fb1cca5cf1b1a"
+    },
+    {
+      "path": "output/playwright/v2/desktop/epic-selected-8.png",
+      "sha256": "811e2ae01155c782d3b9506f53d9c0b54eee8e91c64eb12348ce37435b6c0532"
+    },
+    {
+      "path": "output/playwright/v2/desktop/formation.png",
+      "sha256": "1e781eb3c52c4650818b9e32afa0e231e4fa430ef3faa856fe91adee14d22946"
+    },
+    {
+      "path": "output/playwright/v2/desktop/level-budget.png",
+      "sha256": "3b3f1eea01d7a9e56fb95a7b15bc290db244d17b7825d140a530ae87c2ff2e4a"
+    },
+    {
+      "path": "output/playwright/v2/desktop/level-over-old-budget-and-count.png",
+      "sha256": "c4ddf71967200f179c7506b1cff0d95ff4c11e07edfdc6592da26869fef8f20c"
+    },
+    {
+      "path": "output/playwright/v2/desktop/max-upgrades-bottom.png",
+      "sha256": "2d00550c910a75f090047d2ab0560c0acb50cd1cde433fdc8dff3cb1b2ac9800"
+    },
+    {
+      "path": "output/playwright/v2/desktop/max-upgrades-top.png",
+      "sha256": "9a7bdcb51ae9c0e9203253daaa976638809ef798d8269c558ed6aff64a1e0d6c"
+    },
+    {
+      "path": "output/playwright/v2/desktop/normal.png",
+      "sha256": "829300ce4f9dff86a7854a231990bf3ed99a4e46601d37a5f8394a437376b45f"
+    },
+    {
+      "path": "output/playwright/v2/desktop/off.png",
+      "sha256": "2f0b3d8e61742cbc23c4e65e3a49ce871b528608edfc09b63b8c00d28f4788c6"
+    },
+    {
+      "path": "output/playwright/v2/desktop/pause.png",
+      "sha256": "9a8f8fcd6c084fa9ce3124a725e100ce8ca1b6a020fd70c0644187f294d36d21"
+    },
+    {
+      "path": "output/playwright/v2/desktop/refresh.png",
+      "sha256": "f4563657f22073991d72aa48f353bdb0adf0ddd58a887112c7a7d36097d48c30"
+    },
+    {
+      "path": "output/playwright/v2/desktop/reopen.png",
+      "sha256": "91f6dd80578ca90276fb3cd0860a19406e7164d7a1a5d2cff1c41a60bb3c3f12"
+    },
+    {
+      "path": "output/playwright/v2/mobile/battle-result-dismissed.png",
+      "sha256": "ceb2936657b4c34f822bc2f2fa9b8193b56db071cac4b325e927fd098f8db330"
+    },
+    {
+      "path": "output/playwright/v2/mobile/battle-result.png",
+      "sha256": "f956c61f68b8025963045c1a54601c02b7224c894611d391977242af04ca6f42"
+    },
+    {
+      "path": "output/playwright/v2/mobile/default.png",
+      "sha256": "dd0e4190f62dfc60ad11057226ff6e9a4ef927ddebb0591a9ebb7103ab75480e"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-1.png",
+      "sha256": "02df59f03686c20997d980e995da5e4bc2a29a7a2093867cd14888006f89817f"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-2.png",
+      "sha256": "84b912e7cd57f23b502a595f9f63882c7bc4d23e7c0cf4d9f0f334de68e3c921"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-3.png",
+      "sha256": "0c1655891f2f96f07f1b7e40f15324fb9538ff8213b30d8e5558b272bbbb36dd"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-4.png",
+      "sha256": "436f44b1329c8338d702042c90a6b73829969ef55709c6f634fff59f57ee0e51"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-5.png",
+      "sha256": "7ed91d3621eaae33c524b7c90f8e257003fa58fe55a8ad0e39d9b9ac1cccd666"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-6.png",
+      "sha256": "672323a5dae9091dc5de54db8f5f59ac74235eef67cd877ff310d5a36d26d8a0"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-7.png",
+      "sha256": "4bb138c7a1490c7cc655da25c58843342c6f9529ebcd60bce36a40ad12e93cdf"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-8.png",
+      "sha256": "447ba2258238e474a250eded945151f6f4ced054683578bc4ec9de14df60a49d"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-available.png",
+      "sha256": "d1226e10ba5f79d1fd237020dc95d0515dfc607f7718f4c688ff6887018ac27d"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-1.png",
+      "sha256": "02f5679db7d6885c9a68572ebae7be7cc47bb0b89cd2f963a537f32aad581544"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-2.png",
+      "sha256": "1401c8cae38862a3a2524c7690895f99282d3723088c033a96631e6f1f23c7bb"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-3.png",
+      "sha256": "7445260ac8270fb55b0adcdd3fc4a12b3b4ea70898c9693bc5aabf79abf3b503"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-4.png",
+      "sha256": "9cbaa53708147a902dbbcaaf37169b892520328b1122454e4184d61de63dd326"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-5.png",
+      "sha256": "2ea8ce681f10807826a3e88de3db867dd9c144c4833beba7d25ded5eccfe4dc8"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-6.png",
+      "sha256": "c7451b6ed32be32c4b058325501fea3396b60bf329c0a688b91b6175149ef6fa"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-7.png",
+      "sha256": "ec414df05e6a45821a67f3538fdd791da09094bc87f523bf64b448af554d23d6"
+    },
+    {
+      "path": "output/playwright/v2/mobile/epic-selected-8.png",
+      "sha256": "2515b107081b88b469bf91e92e4530c257acd0944ae6cdc9e2b471f8d209bc8f"
+    },
+    {
+      "path": "output/playwright/v2/mobile/formation.png",
+      "sha256": "528e7320660327dc2968fd97b4c9bec0c71b7631ccc2faed60bda01368a358a7"
+    },
+    {
+      "path": "output/playwright/v2/mobile/level-budget.png",
+      "sha256": "107c503f6650920dc2bbff96c529e37bd7ad6ffcc050b8b6f5379a8b27d88a0e"
+    },
+    {
+      "path": "output/playwright/v2/mobile/level-over-old-budget-and-count.png",
+      "sha256": "c4f3530af998391749517d83290cc1e2c811fc39ce011f2ef6eeeea0bccbdb7e"
+    },
+    {
+      "path": "output/playwright/v2/mobile/level-spending.png",
+      "sha256": "1c68221f9a3a2f51bd9dc4da85a0acfcbcb55308159f3b738833526079c44b97"
+    },
+    {
+      "path": "output/playwright/v2/mobile/max-upgrades-bottom.png",
+      "sha256": "bc68ade963b5f2b510077c439a6a1b87ef3367b543a9b899fd2743b3188e8de5"
+    },
+    {
+      "path": "output/playwright/v2/mobile/max-upgrades-top.png",
+      "sha256": "4a9fdedb9dae012da4d6887c2584097cebc8a5445949c0fee5dcebae3bd234be"
+    },
+    {
+      "path": "output/playwright/v2/mobile/normal.png",
+      "sha256": "505834f3168c47adcb9ba363c7e276ccc120b386204cf68a815b7fd691c18175"
+    },
+    {
+      "path": "output/playwright/v2/mobile/off.png",
+      "sha256": "791b1745f66b5d0b73348f9ea65aca50ab271ff6a5907e2de099a2af6d0cc443"
+    },
+    {
+      "path": "output/playwright/v2/mobile/pause.png",
+      "sha256": "de4019c8cf39d7b57c7d7c025e17210d3f6fecce90da67aa343a8a26d080d95b"
+    },
+    {
+      "path": "output/playwright/v2/mobile/refresh.png",
+      "sha256": "066ffe5aea8d547074bd796305401845504d8446fd5f17392979cec18820b570"
+    },
+    {
+      "path": "output/playwright/v2/mobile/reopen.png",
+      "sha256": "5e51e06b9c930576784b729ef6b5c17518bf212c33c449ac2469f9a2d5f44f3a"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-1-placed.png",
+      "sha256": "b0323fb3c0803722ba5b92fc028c3d6a716a5821e2147b383d5270e427056af7"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-1-selected.png",
+      "sha256": "f95692b41a78c5a0e7001b8d48845352efa0ea3a288e7bf4c67782ef51cdea3c"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-2-placed.png",
+      "sha256": "b52a73e0d486709f4c0e201310b45e52673ee658b7a249f288e2faa10f9ee50c"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-2-selected.png",
+      "sha256": "83fcb5ef9d33320c57bb61623d5b50024eed1b8d7fd22e9b9ea90c94040cecf4"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-3-placed.png",
+      "sha256": "b1bdb2cb6afe6fab70b386bf92c14b1c0350eb002df984ea526f9fa0036a3a19"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-3-selected.png",
+      "sha256": "5db566b2bd91a9890fdb798827928ddcad7d8748e6a5ac2fb0b119411ca5a092"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-4-placed.png",
+      "sha256": "ce05833ae66e10fe34e053c9e3ba9121c78975e7f44cab8f164e7f3b8491af4c"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-4-selected.png",
+      "sha256": "16a0dc3df212273b26a6e60ffa3695916814ee087692c8983fb19d87b340e3bf"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-5-placed.png",
+      "sha256": "ba68860894909021269389e78a1670f470303e78b941e4a7c11781c082346074"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-5-selected.png",
+      "sha256": "c060cde87c35981d09ee71f8a48b9deec3545704663ac23466f6c28cd86e8c92"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-6-placed.png",
+      "sha256": "3ec31709c9fbf1b16c220d8d85bdb7df288ce5fbc05632b93afcf6a34921e507"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-6-selected.png",
+      "sha256": "62e5b763a8f476cecd6229d093ded491ad254688489e1b0455aa9ed15b75ef36"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-7-placed.png",
+      "sha256": "fee1324859ac644094ff5da3bddfebfa0c46067788f0bc08cb06a290eaeafa86"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-7-selected.png",
+      "sha256": "0376d65a65b107fe5d029bfa14251b59478da5a7111e49e34878c57f3fec9253"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-8-placed.png",
+      "sha256": "0aa2537ce70543dace4ce4947c441c4d340e1a2f2efa3366a54eb59fa3c6b3af"
+    },
+    {
+      "path": "output/playwright/v2/epic-full/unit-8-selected.png",
+      "sha256": "ac2a6a9a293fa0a503ad48023bb644652da126b027632ba572df35de8a1db3eb"
+    },
+    {
+      "path": "output/playwright/v2/capacity/custom-over-120.png",
+      "sha256": "58502a0cf0352b704ed40c7910335bba2b8124c89301647d74249ef9c5f93131"
+    },
+    {
+      "path": "output/playwright/v2/capacity/level105-budget-before.png",
+      "sha256": "d0395748aca6f10d901c1dafe08fb21ee8d42a291ddce9f3387dc3146b9e240f"
+    },
+    {
+      "path": "output/playwright/v2/capacity/level105-spent-over-6000.png",
+      "sha256": "bf36b349d4190529a66e42df0ab020de47425b270c22dc3ebed18ce3dc21ed78"
+    }
+  ]
+}

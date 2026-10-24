@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob:; connect-src 'self'; style-src 'self' 'unsafe-inline'; object-src 'none'; frame-src 'none'">
+<title>本地中文沙盒 · 实验版 0.3.1</title>
+<style>
+html,body{margin:0;background:#232323;color:white;font:14px system-ui,"Microsoft YaHei",sans-serif;height:100%;overflow:hidden}
+main{height:100%;display:flex;justify-content:center;align-items:center}canvas{display:block;background:#000}#loading{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);padding:20px;background:#172b35;max-width:80vw}
+</style>
+<main><canvas id="unity-canvas" tabindex="0"></canvas><div id="loading">正在加载本地构建…</div></main>
+<script src="prefs-codec.js"></script>
+<script src="local-mode.js"></script>
+<script src="Build/EBS.loader.js"></script>
+<script>
+const canvas=document.querySelector('canvas'), loading=document.querySelector('#loading');
+function resize(){let w=innerWidth,h=innerHeight;if(w/h>16/9)w=h*16/9;else h=w*9/16;canvas.style.width=w+'px';canvas.style.height=h+'px'}
+addEventListener('resize',resize);resize();
+window.adConfig=()=>{};window.unityInstance=null;
+// Preserve upstream local domain callback behavior; this is not proof of authorization.
+window.domainTimer=setInterval(()=>window.unityInstance?.SendMessage('H5MadKidGames','H5_OnDomainApproved'),100);
+window.localReady.then(()=>createUnityInstance(canvas,{
+ dataUrl:sandbox?'local-generated/EBS.sandbox.ui.data':'local-generated/EBS.zh-CN.ui.data',frameworkUrl:'local-generated/EBS.local.framework.js',codeUrl:'Build/EBS.wasm',streamingAssetsUrl:'StreamingAssets',
+ companyName:'madkidgames.com',productName:'Epic Battle Simulator 2',productVersion:'1.11.4',
+},p=>loading.textContent='正在加载本地构建… '+Math.round(p*100)+'%')).then(instance=>{
+ window.unityInstance=instance;loading.hidden=true;
+}).catch(error=>{
+ loading.textContent='加载失败：'+error.message;console.error(error);
+});
+</script>
+</html>

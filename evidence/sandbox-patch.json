@@ -1,0 +1,1620 @@
+{
+  "version": "0.2.0",
+  "sourceSHA256": "257a2b71ae6b1b6393a9190baa0a1e1b20c174462eeecad7a2ae835f8e400e7c",
+  "outputSHA256": "f47126f4de6d43b976960d7a07e37dba51170f53e5cb8898be6f20f4a874d9e0",
+  "changedObject": [
+    "level1",
+    8170
+  ],
+  "unchangedObjects": 29183,
+  "fields": [
+    {
+      "field": "customArmyNumber",
+      "offset": 556,
+      "before": 120,
+      "after": 1000
+    },
+    {
+      "field": "Archer.counterMax",
+      "offset": 692,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "CannonMan.counterMax",
+      "offset": 868,
+      "before": 10,
+      "after": 1000
+    },
+    {
+      "field": "Gladiator.counterMax",
+      "offset": 1048,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Knight.counterMax",
+      "offset": 1224,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Man.counterMax",
+      "offset": 1400,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "CatapultMan.counterMax",
+      "offset": 1580,
+      "before": 10,
+      "after": 1000
+    },
+    {
+      "field": "Musketeer.counterMax",
+      "offset": 1760,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "AxeMan.counterMax",
+      "offset": 1936,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "ShieldMan.counterMax",
+      "offset": 2112,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "SpearMan.counterMax",
+      "offset": 2292,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Giant.counterMax",
+      "offset": 2468,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Guard.counterMax",
+      "offset": 2644,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Ballista.counterMax",
+      "offset": 2820,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Crossbow.counterMax",
+      "offset": 2996,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "WarElephant.counterMax",
+      "offset": 3172,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Kamikaze.counterMax",
+      "offset": 3352,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Ninja.counterMax",
+      "offset": 3528,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "AK47.counterMax",
+      "offset": 3700,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "M16.counterMax",
+      "offset": 3872,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "MageTower.counterMax",
+      "offset": 4052,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Chariot.counterMax",
+      "offset": 4228,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Camel.counterMax",
+      "offset": 4408,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Pirate.counterMax",
+      "offset": 4584,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Hwacha.counterMax",
+      "offset": 4764,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Mage.counterMax",
+      "offset": 4940,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "BearRider.counterMax",
+      "offset": 5120,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "OrganGun.counterMax",
+      "offset": 5296,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "TrebuchetMan.counterMax",
+      "offset": 5480,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Berseker.counterMax",
+      "offset": 5660,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Spartan.counterMax",
+      "offset": 5844,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Sentinel.counterMax",
+      "offset": 6020,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Samurai.counterMax",
+      "offset": 6196,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "FireDragon.counterMax",
+      "offset": 6372,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Minigun.counterMax",
+      "offset": 6552,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Rhino.counterMax",
+      "offset": 6728,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Guardian.counterMax",
+      "offset": 6908,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "Wolf.counterMax",
+      "offset": 7088,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[0].availableGold",
+      "offset": 7236,
+      "before": 300,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[0].availableArmy",
+      "offset": 7240,
+      "before": 8,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[1].availableGold",
+      "offset": 7276,
+      "before": 550,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[1].availableArmy",
+      "offset": 7280,
+      "before": 10,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[2].availableGold",
+      "offset": 7316,
+      "before": 650,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[2].availableArmy",
+      "offset": 7320,
+      "before": 10,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[3].availableGold",
+      "offset": 7356,
+      "before": 550,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[3].availableArmy",
+      "offset": 7360,
+      "before": 10,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[4].availableGold",
+      "offset": 7396,
+      "before": 650,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[4].availableArmy",
+      "offset": 7400,
+      "before": 12,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[5].availableGold",
+      "offset": 7436,
+      "before": 950,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[5].availableArmy",
+      "offset": 7440,
+      "before": 15,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[6].availableGold",
+      "offset": 7476,
+      "before": 950,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[6].availableArmy",
+      "offset": 7480,
+      "before": 15,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[7].availableGold",
+      "offset": 7516,
+      "before": 1000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[7].availableArmy",
+      "offset": 7520,
+      "before": 15,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[8].availableGold",
+      "offset": 7556,
+      "before": 1000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[8].availableArmy",
+      "offset": 7560,
+      "before": 15,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[9].availableGold",
+      "offset": 7596,
+      "before": 1600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[9].availableArmy",
+      "offset": 7600,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[10].availableGold",
+      "offset": 7636,
+      "before": 1500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[10].availableArmy",
+      "offset": 7640,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[11].availableGold",
+      "offset": 7676,
+      "before": 1500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[11].availableArmy",
+      "offset": 7680,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[12].availableGold",
+      "offset": 7716,
+      "before": 1800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[12].availableArmy",
+      "offset": 7720,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[13].availableGold",
+      "offset": 7756,
+      "before": 1600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[13].availableArmy",
+      "offset": 7760,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[14].availableGold",
+      "offset": 7796,
+      "before": 1500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[14].availableArmy",
+      "offset": 7800,
+      "before": 20,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[15].availableGold",
+      "offset": 7836,
+      "before": 2000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[15].availableArmy",
+      "offset": 7840,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[16].availableGold",
+      "offset": 7876,
+      "before": 2000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[16].availableArmy",
+      "offset": 7880,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[17].availableGold",
+      "offset": 7916,
+      "before": 2000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[17].availableArmy",
+      "offset": 7920,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[18].availableGold",
+      "offset": 7956,
+      "before": 1800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[18].availableArmy",
+      "offset": 7960,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[19].availableGold",
+      "offset": 7996,
+      "before": 1500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[19].availableArmy",
+      "offset": 8000,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[20].availableGold",
+      "offset": 8036,
+      "before": 2500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[20].availableArmy",
+      "offset": 8040,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[21].availableGold",
+      "offset": 8076,
+      "before": 2700,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[21].availableArmy",
+      "offset": 8080,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[22].availableGold",
+      "offset": 8116,
+      "before": 2300,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[22].availableArmy",
+      "offset": 8120,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[23].availableGold",
+      "offset": 8156,
+      "before": 2600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[23].availableArmy",
+      "offset": 8160,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[24].availableGold",
+      "offset": 8196,
+      "before": 3000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[24].availableArmy",
+      "offset": 8200,
+      "before": 30,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[25].availableGold",
+      "offset": 8236,
+      "before": 2800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[25].availableArmy",
+      "offset": 8240,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[26].availableGold",
+      "offset": 8276,
+      "before": 2800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[26].availableArmy",
+      "offset": 8280,
+      "before": 30,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[27].availableGold",
+      "offset": 8316,
+      "before": 2600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[27].availableArmy",
+      "offset": 8320,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[28].availableGold",
+      "offset": 8356,
+      "before": 2600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[28].availableArmy",
+      "offset": 8360,
+      "before": 25,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[29].availableGold",
+      "offset": 8396,
+      "before": 3000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[29].availableArmy",
+      "offset": 8400,
+      "before": 30,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[30].availableGold",
+      "offset": 8436,
+      "before": 3000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[30].availableArmy",
+      "offset": 8440,
+      "before": 30,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[31].availableGold",
+      "offset": 8476,
+      "before": 3000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[31].availableArmy",
+      "offset": 8480,
+      "before": 30,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[32].availableGold",
+      "offset": 8516,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[32].availableArmy",
+      "offset": 8520,
+      "before": 35,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[33].availableGold",
+      "offset": 8556,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[33].availableArmy",
+      "offset": 8560,
+      "before": 40,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[34].availableGold",
+      "offset": 8596,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[34].availableArmy",
+      "offset": 8600,
+      "before": 40,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[35].availableGold",
+      "offset": 8636,
+      "before": 3800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[35].availableArmy",
+      "offset": 8640,
+      "before": 40,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[36].availableGold",
+      "offset": 8676,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[36].availableArmy",
+      "offset": 8680,
+      "before": 35,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[37].availableGold",
+      "offset": 8716,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[37].availableArmy",
+      "offset": 8720,
+      "before": 35,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[38].availableGold",
+      "offset": 8756,
+      "before": 3600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[38].availableArmy",
+      "offset": 8760,
+      "before": 35,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[39].availableGold",
+      "offset": 8796,
+      "before": 4400,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[39].availableArmy",
+      "offset": 8800,
+      "before": 40,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[40].availableGold",
+      "offset": 8836,
+      "before": 4000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[40].availableArmy",
+      "offset": 8840,
+      "before": 40,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[41].availableGold",
+      "offset": 8876,
+      "before": 4200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[41].availableArmy",
+      "offset": 8880,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[42].availableGold",
+      "offset": 8916,
+      "before": 4200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[42].availableArmy",
+      "offset": 8920,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[43].availableGold",
+      "offset": 8956,
+      "before": 4800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[43].availableArmy",
+      "offset": 8960,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[44].availableGold",
+      "offset": 8996,
+      "before": 4600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[44].availableArmy",
+      "offset": 9000,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[45].availableGold",
+      "offset": 9036,
+      "before": 4800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[45].availableArmy",
+      "offset": 9040,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[46].availableGold",
+      "offset": 9076,
+      "before": 4400,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[46].availableArmy",
+      "offset": 9080,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[47].availableGold",
+      "offset": 9116,
+      "before": 4600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[47].availableArmy",
+      "offset": 9120,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[48].availableGold",
+      "offset": 9156,
+      "before": 4800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[48].availableArmy",
+      "offset": 9160,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[49].availableGold",
+      "offset": 9196,
+      "before": 4600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[49].availableArmy",
+      "offset": 9200,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[50].availableGold",
+      "offset": 9236,
+      "before": 4600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[50].availableArmy",
+      "offset": 9240,
+      "before": 45,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[51].availableGold",
+      "offset": 9276,
+      "before": 5000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[51].availableArmy",
+      "offset": 9280,
+      "before": 50,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[52].availableGold",
+      "offset": 9316,
+      "before": 5200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[52].availableArmy",
+      "offset": 9320,
+      "before": 50,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[53].availableGold",
+      "offset": 9356,
+      "before": 5400,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[53].availableArmy",
+      "offset": 9360,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[54].availableGold",
+      "offset": 9396,
+      "before": 5600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[54].availableArmy",
+      "offset": 9400,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[55].availableGold",
+      "offset": 9436,
+      "before": 5300,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[55].availableArmy",
+      "offset": 9440,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[56].availableGold",
+      "offset": 9476,
+      "before": 5000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[56].availableArmy",
+      "offset": 9480,
+      "before": 50,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[57].availableGold",
+      "offset": 9516,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[57].availableArmy",
+      "offset": 9520,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[58].availableGold",
+      "offset": 9556,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[58].availableArmy",
+      "offset": 9560,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[59].availableGold",
+      "offset": 9596,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[59].availableArmy",
+      "offset": 9600,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[60].availableGold",
+      "offset": 9636,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[60].availableArmy",
+      "offset": 9640,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[61].availableGold",
+      "offset": 9676,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[61].availableArmy",
+      "offset": 9680,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[62].availableGold",
+      "offset": 9716,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[62].availableArmy",
+      "offset": 9720,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[63].availableGold",
+      "offset": 9756,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[63].availableArmy",
+      "offset": 9760,
+      "before": 50,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[64].availableGold",
+      "offset": 9796,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[64].availableArmy",
+      "offset": 9800,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[65].availableGold",
+      "offset": 9836,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[65].availableArmy",
+      "offset": 9840,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[66].availableGold",
+      "offset": 9876,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[66].availableArmy",
+      "offset": 9880,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[67].availableGold",
+      "offset": 9916,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[67].availableArmy",
+      "offset": 9920,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[68].availableGold",
+      "offset": 9956,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[68].availableArmy",
+      "offset": 9960,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[69].availableGold",
+      "offset": 9996,
+      "before": 6500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[69].availableArmy",
+      "offset": 10000,
+      "before": 65,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[70].availableGold",
+      "offset": 10036,
+      "before": 5000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[70].availableArmy",
+      "offset": 10040,
+      "before": 50,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[71].availableGold",
+      "offset": 10076,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[71].availableArmy",
+      "offset": 10080,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[72].availableGold",
+      "offset": 10116,
+      "before": 6400,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[72].availableArmy",
+      "offset": 10120,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[73].availableGold",
+      "offset": 10156,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[73].availableArmy",
+      "offset": 10160,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[74].availableGold",
+      "offset": 10196,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[74].availableArmy",
+      "offset": 10200,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[75].availableGold",
+      "offset": 10236,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[75].availableArmy",
+      "offset": 10240,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[76].availableGold",
+      "offset": 10276,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[76].availableArmy",
+      "offset": 10280,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[77].availableGold",
+      "offset": 10316,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[77].availableArmy",
+      "offset": 10320,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[78].availableGold",
+      "offset": 10356,
+      "before": 6400,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[78].availableArmy",
+      "offset": 10360,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[79].availableGold",
+      "offset": 10396,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[79].availableArmy",
+      "offset": 10400,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[80].availableGold",
+      "offset": 10436,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[80].availableArmy",
+      "offset": 10440,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[81].availableGold",
+      "offset": 10476,
+      "before": 6200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[81].availableArmy",
+      "offset": 10480,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[82].availableGold",
+      "offset": 10516,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[82].availableArmy",
+      "offset": 10520,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[83].availableGold",
+      "offset": 10556,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[83].availableArmy",
+      "offset": 10560,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[84].availableGold",
+      "offset": 10596,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[84].availableArmy",
+      "offset": 10600,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[85].availableGold",
+      "offset": 10636,
+      "before": 5800,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[85].availableArmy",
+      "offset": 10640,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[86].availableGold",
+      "offset": 10676,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[86].availableArmy",
+      "offset": 10680,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[87].availableGold",
+      "offset": 10716,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[87].availableArmy",
+      "offset": 10720,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[88].availableGold",
+      "offset": 10756,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[88].availableArmy",
+      "offset": 10760,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[89].availableGold",
+      "offset": 10796,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[89].availableArmy",
+      "offset": 10800,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[90].availableGold",
+      "offset": 10836,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[90].availableArmy",
+      "offset": 10840,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[91].availableGold",
+      "offset": 10876,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[91].availableArmy",
+      "offset": 10880,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[92].availableGold",
+      "offset": 10916,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[92].availableArmy",
+      "offset": 10920,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[93].availableGold",
+      "offset": 10956,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[93].availableArmy",
+      "offset": 10960,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[94].availableGold",
+      "offset": 10996,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[94].availableArmy",
+      "offset": 11000,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[95].availableGold",
+      "offset": 11036,
+      "before": 5600,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[95].availableArmy",
+      "offset": 11040,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[96].availableGold",
+      "offset": 11076,
+      "before": 6200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[96].availableArmy",
+      "offset": 11080,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[97].availableGold",
+      "offset": 11116,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[97].availableArmy",
+      "offset": 11120,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[98].availableGold",
+      "offset": 11156,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[98].availableArmy",
+      "offset": 11160,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[99].availableGold",
+      "offset": 11196,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[99].availableArmy",
+      "offset": 11200,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[100].availableGold",
+      "offset": 11236,
+      "before": 5200,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[100].availableArmy",
+      "offset": 11240,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[101].availableGold",
+      "offset": 11276,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[101].availableArmy",
+      "offset": 11280,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[102].availableGold",
+      "offset": 11316,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[102].availableArmy",
+      "offset": 11320,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[103].availableGold",
+      "offset": 11356,
+      "before": 5500,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[103].availableArmy",
+      "offset": 11360,
+      "before": 55,
+      "after": 1000
+    },
+    {
+      "field": "LevelsValues[104].availableGold",
+      "offset": 11396,
+      "before": 6000,
+      "after": 999999999
+    },
+    {
+      "field": "LevelsValues[104].availableArmy",
+      "offset": 11400,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[0].availableGold",
+      "offset": 11440,
+      "before": 7800,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[0].availableArmy",
+      "offset": 11444,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[1].availableGold",
+      "offset": 11480,
+      "before": 8100,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[1].availableArmy",
+      "offset": 11484,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[2].availableGold",
+      "offset": 11520,
+      "before": 8000,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[2].availableArmy",
+      "offset": 11524,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[3].availableGold",
+      "offset": 11560,
+      "before": 6400,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[3].availableArmy",
+      "offset": 11564,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[4].availableGold",
+      "offset": 11600,
+      "before": 7000,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[4].availableArmy",
+      "offset": 11604,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[5].availableGold",
+      "offset": 11640,
+      "before": 8600,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[5].availableArmy",
+      "offset": 11644,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[6].availableGold",
+      "offset": 11680,
+      "before": 10000,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[6].availableArmy",
+      "offset": 11684,
+      "before": 15,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[7].availableGold",
+      "offset": 11720,
+      "before": 8500,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[7].availableArmy",
+      "offset": 11724,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[8].availableGold",
+      "offset": 11760,
+      "before": 8800,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[8].availableArmy",
+      "offset": 11764,
+      "before": 60,
+      "after": 1000
+    },
+    {
+      "field": "EpicLevelsValues[9].availableGold",
+      "offset": 11800,
+      "before": 10400,
+      "after": 999999999
+    },
+    {
+      "field": "EpicLevelsValues[9].availableArmy",
+      "offset": 11804,
+      "before": 15,
+      "after": 1000
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "case": "fresh",
+    "sourceUnchanged": true,
+    "marker": null,
+    "gems": 999999999,
+    "wolfLevel": 2
+  },
+  {
+    "case": "empty-v1",
+    "sourceUnchanged": true,
+    "marker": 11,
+    "gems": 999999999,
+    "wolfLevel": 2
+  },
+  {
+    "case": "valid-v1",
+    "sourceUnchanged": true,
+    "marker": 99,
+    "gems": 999999999,
+    "wolfLevel": 2
+  }
+]

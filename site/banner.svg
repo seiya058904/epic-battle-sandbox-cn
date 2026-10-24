@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Epic Battle Sandbox CN</title>
+  <desc id="desc">史诗战斗·中文沙盒，本地补丁与复验手册。</desc>
+  <rect width="1200" height="320" fill="#173c58"/>
+  <path d="M0 270H1200M936 0V320" stroke="#6f8d9b" stroke-width="1"/>
+  <text x="56" y="111" fill="#faf7ef" font-family="Georgia,serif" font-size="64">Epic Battle</text>
+  <text x="56" y="183" fill="#faf7ef" font-family="Georgia,serif" font-size="64">Sandbox CN</text>
+  <text x="58" y="236" fill="#d6e3e7" font-family="sans-serif" font-size="23">史诗战斗 · 中文沙盒</text>
+  <text x="58" y="302" fill="#d6e3e7" font-family="sans-serif" font-size="16">LOCAL PATCH / DOCUMENTATION</text>
+  <path d="M992 77H1136V221H992Z M1040 77V221 M1088 77V221 M992 125H1136 M992 173H1136" stroke="#6f8d9b" fill="none"/>
+  <path d="M997 82H1035V120H997Z M1045 130H1083V168H1045Z M1093 178H1131V216H1093Z" fill="#d7bc7b"/>
+  <text x="990" y="302" fill="#d6e3e7" font-family="sans-serif" font-size="16">中文 / 本地 / 可复验</text>
+</svg>

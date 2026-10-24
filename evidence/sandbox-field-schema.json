@@ -1,0 +1,549 @@
+{
+  "ArmyInspector": [
+    {
+      "name": "GO",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "SP",
+      "type": "Sprite",
+      "attrs": "0x6"
+    },
+    {
+      "name": "army",
+      "type": "Army",
+      "attrs": "0x6"
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "attrs": "0x6"
+    },
+    {
+      "name": "price",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "counterMax",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "counterPlayer",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "ui_Manager",
+      "type": "Ui_Manager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "upgrade_Panel",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "army_Toggle",
+      "type": "Toggle",
+      "attrs": "0x6"
+    },
+    {
+      "name": "health",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "damage",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "attackSpeed",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "movementSpeed",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "hitDistance",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "penetration",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "StatsValuesLvL",
+      "type": "StatsValues[]",
+      "attrs": "0x6"
+    }
+  ],
+  "LevelValues": [
+    {
+      "name": "levelSetUp",
+      "type": "LevelSetUp",
+      "attrs": "0x6"
+    },
+    {
+      "name": "availableGold",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "availableArmy",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "design",
+      "type": "LevelDesign",
+      "attrs": "0x6"
+    },
+    {
+      "name": "isBossLevel",
+      "type": "bool",
+      "attrs": "0x6"
+    },
+    {
+      "name": "bossReward",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "epic_Reward_First_Time",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "epic_Reward",
+      "type": "int",
+      "attrs": "0x6"
+    }
+  ],
+  "StatsValues": [
+    {
+      "name": "healthPercent",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "damagePercent",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "attackSpeedPercent",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "movementSpeedPercent",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "price",
+      "type": "int",
+      "attrs": "0x6"
+    }
+  ],
+  "LevelDesignValues": [
+    {
+      "name": "design",
+      "type": "LevelDesign",
+      "attrs": "0x6"
+    },
+    {
+      "name": "levelDesignGO",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "levelDesignSR",
+      "type": "Sprite",
+      "attrs": "0x6"
+    },
+    {
+      "name": "FogColor",
+      "type": "Color32",
+      "attrs": "0x6"
+    },
+    {
+      "name": "FogDensity",
+      "type": "float",
+      "attrs": "0x6"
+    },
+    {
+      "name": "skyBox",
+      "type": "Material",
+      "attrs": "0x6"
+    }
+  ],
+  "ArmyBalance": [
+    {
+      "name": "army",
+      "type": "Army",
+      "attrs": "0x6"
+    },
+    {
+      "name": "statsLvL",
+      "type": "int",
+      "attrs": "0x6"
+    }
+  ],
+  "Level_Manager": [
+    {
+      "name": "ui_Manager",
+      "type": "Ui_Manager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "playerPrefs_Players",
+      "type": "PlayerPrefs_Players",
+      "attrs": "0x6"
+    },
+    {
+      "name": "topPanel_Manager",
+      "type": "TopPanel_Manager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "infoPanel_Manager",
+      "type": "InfoPanel_Manager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "gc",
+      "type": "GameController",
+      "attrs": "0x6"
+    },
+    {
+      "name": "audio_Manager",
+      "type": "Audio_Manager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "multiplayerController",
+      "type": "MultiplayerController",
+      "attrs": "0x6"
+    },
+    {
+      "name": "troopMaterialManager",
+      "type": "TroopMaterialManager",
+      "attrs": "0x6"
+    },
+    {
+      "name": "MenuGOs",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "MenuTroops",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "ShopGOs",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "PlayerQuad",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "EnemyQuad",
+      "type": "GameObject",
+      "attrs": "0x6"
+    },
+    {
+      "name": "shopCamera",
+      "type": "Camera",
+      "attrs": "0x6"
+    },
+    {
+      "name": "LevelsDesignValues",
+      "type": "LevelDesignValues[]",
+      "attrs": "0x6"
+    },
+    {
+      "name": "customDesign",
+      "type": "LevelDesign",
+      "attrs": "0x6"
+    },
+    {
+      "name": "multiplayerDesign",
+      "type": "LevelDesign",
+      "attrs": "0x6"
+    },
+    {
+      "name": "troopsNumber",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "bossesNumber",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "customArmyNumber",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "multiArmyNumber",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "unlockEpicLevelsIndex",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "groundArmyMask",
+      "type": "LayerMask",
+      "attrs": "0x6"
+    },
+    {
+      "name": "blockMask",
+      "type": "LayerMask",
+      "attrs": "0x6"
+    },
+    {
+      "name": "botMask",
+      "type": "LayerMask",
+      "attrs": "0x6"
+    },
+    {
+      "name": "AutoAction_Toggle",
+      "type": "Toggle",
+      "attrs": "0x6"
+    },
+    {
+      "name": "SpritesLvL",
+      "type": "Sprite[]",
+      "attrs": "0x6"
+    },
+    {
+      "name": "tutorialArmyNumber",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "userAvailableGold",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "enemyAvailableGold",
+      "type": "int",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Archer",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "CannonMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Gladiator",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Knight",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Man",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "CatapultMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Musketeer",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "AxeMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "ShieldMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "SpearMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Giant",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Guard",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Ballista",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Crossbow",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "WarElephant",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Kamikaze",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Ninja",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "AK47",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "M16",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "MageTower",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Chariot",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Camel",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Pirate",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Hwacha",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Mage",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "BearRider",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "OrganGun",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "TrebuchetMan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Berseker",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Spartan",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Sentinel",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Samurai",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "FireDragon",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Minigun",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Rhino",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Guardian",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "Wolf",
+      "type": "ArmyInspector",
+      "attrs": "0x6"
+    },
+    {
+      "name": "LevelsValues",
+      "type": "LevelValues[]",
+      "attrs": "0x6"
+    },
+    {
+      "name": "EpicLevelsValues",
+      "type": "LevelValues[]",
+      "attrs": "0x6"
+    }
+  ]
+}

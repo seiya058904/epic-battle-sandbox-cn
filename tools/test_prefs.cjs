@@ -1,0 +1,21 @@
+const assert=require('node:assert/strict');
+const {entries,topUp}=require('../prefs-codec.js');
+const header=Buffer.from([85,110,105,116,121,80,114,102,0,0,1,0,0,0,16,0]);
+function integer(key,value){const b=Buffer.alloc(1+key.length+5);b[0]=key.length;b.write(key,1);b[1+key.length]=254;b.writeInt32LE(value,key.length+2);return b}
+const original=Buffer.concat([header,integer('Consumables',25),integer('Man',1),integer('HasBoughtIAP',0)]);
+const copy=Buffer.from(original), changed=topUp(original);
+assert.deepEqual(original,copy);assert.equal(entries(changed).entries[0].value,999999999);
+assert.deepEqual(entries(changed).entries.slice(1),entries(original).entries.slice(1));
+const field=entries(original).entries[0];for(let i=0;i<original.length;i++)if(i<field.offset||i>=field.offset+4)assert.equal(changed[i],original[i]);
+for(const bad of [Buffer.alloc(10),original.subarray(0,-1),Buffer.concat([header,integer('Man',1)]),Buffer.concat([original,integer('Consumables',1)]),Buffer.concat([header,integer('Consumables',-1)])])assert.throws(()=>topUp(bad));
+console.log('PASS: immutable input; only gem integer changes; paid flag and troop state preserved; malformed/missing/duplicate/negative rejected');
+const {fullSandbox,troops}=require('../prefs-codec.js');
+const locked=Buffer.concat([original,Buffer.from([4,...Buffer.from('Wolf'),6,...Buffer.from('locked')]),integer('HasSubscriptionGoogle',0),integer('LockedWolf',1)]);
+const source=Buffer.from(locked), sandbox=fullSandbox(locked), data=Object.fromEntries(entries(sandbox).entries.map(e=>[e.key,e.value]));
+assert.deepEqual(locked,source);assert.equal(troops.length,37);assert(troops.every(k=>data[k]===2));
+assert.equal(data.LockedWolf,0);assert.equal(data.HasBoughtIAP,0);assert.equal(data.HasSubscriptionGoogle,0);
+for(const key of ['Spartan','Sentinel','SamuraiNEW','FireDragonNEW','Minigun','Rhino','Guardian','Wolf'])assert.equal(data[key+'Boss'],2);
+assert.equal(data.LevelsCompleted,105);assert.equal(data.EpicLevelsCompleted,10);
+assert.deepEqual(fullSandbox(sandbox),sandbox);assert.equal(entries(fullSandbox()).entries.find(e=>e.key==='Man').value,2);
+assert.throws(()=>fullSandbox(Buffer.concat([locked,integer('Man',0)])));
+console.log('PASS: fresh seed; all 37 level keys; locked string conversion; immutable source; idempotence; IAP/subscription unchanged; duplicate rejection');

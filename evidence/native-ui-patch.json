@@ -1,0 +1,1584 @@
+[
+  {
+    "variant": "zh-CN",
+    "inputSHA256": "257a2b71ae6b1b6393a9190baa0a1e1b20c174462eeecad7a2ae835f8e400e7c",
+    "outputSHA256": "bfc8d2eae269cf60770d1c2c558be74f3a59d1fd3c39cd7485f0e2cdcea14a1a",
+    "changed": [
+      [
+        "level0",
+        17
+      ],
+      [
+        "level0",
+        81
+      ],
+      [
+        "level1",
+        4939
+      ],
+      [
+        "level1",
+        4960
+      ],
+      [
+        "level1",
+        4970
+      ],
+      [
+        "level1",
+        4993
+      ],
+      [
+        "level1",
+        5068
+      ],
+      [
+        "level1",
+        5151
+      ],
+      [
+        "level1",
+        5169
+      ],
+      [
+        "level1",
+        5243
+      ],
+      [
+        "level1",
+        5254
+      ],
+      [
+        "level1",
+        5311
+      ],
+      [
+        "level1",
+        5334
+      ],
+      [
+        "level1",
+        5351
+      ],
+      [
+        "level1",
+        5380
+      ],
+      [
+        "level1",
+        5432
+      ],
+      [
+        "level1",
+        5434
+      ],
+      [
+        "level1",
+        5485
+      ],
+      [
+        "level1",
+        5510
+      ],
+      [
+        "level1",
+        5579
+      ],
+      [
+        "level1",
+        5593
+      ],
+      [
+        "level1",
+        5681
+      ],
+      [
+        "level1",
+        5722
+      ],
+      [
+        "level1",
+        5733
+      ],
+      [
+        "level1",
+        5787
+      ],
+      [
+        "level1",
+        5826
+      ],
+      [
+        "level1",
+        5859
+      ],
+      [
+        "level1",
+        5872
+      ],
+      [
+        "level1",
+        5955
+      ],
+      [
+        "level1",
+        5967
+      ],
+      [
+        "level1",
+        5981
+      ],
+      [
+        "level1",
+        6009
+      ],
+      [
+        "level1",
+        6146
+      ],
+      [
+        "level1",
+        6200
+      ],
+      [
+        "level1",
+        6252
+      ],
+      [
+        "level1",
+        6835
+      ],
+      [
+        "level1",
+        6855
+      ],
+      [
+        "level1",
+        6861
+      ],
+      [
+        "level1",
+        6879
+      ],
+      [
+        "level1",
+        6946
+      ],
+      [
+        "level1",
+        7014
+      ],
+      [
+        "level1",
+        7026
+      ],
+      [
+        "level1",
+        7107
+      ],
+      [
+        "level1",
+        7117
+      ],
+      [
+        "level1",
+        7176
+      ],
+      [
+        "level1",
+        7197
+      ],
+      [
+        "level1",
+        7214
+      ],
+      [
+        "level1",
+        7244
+      ],
+      [
+        "level1",
+        7294
+      ],
+      [
+        "level1",
+        7297
+      ],
+      [
+        "level1",
+        7345
+      ],
+      [
+        "level1",
+        7373
+      ],
+      [
+        "level1",
+        7440
+      ],
+      [
+        "level1",
+        7458
+      ],
+      [
+        "level1",
+        7547
+      ],
+      [
+        "level1",
+        7576
+      ],
+      [
+        "level1",
+        7587
+      ],
+      [
+        "level1",
+        7654
+      ],
+      [
+        "level1",
+        7706
+      ],
+      [
+        "level1",
+        7740
+      ],
+      [
+        "level1",
+        7754
+      ],
+      [
+        "level1",
+        7837
+      ],
+      [
+        "level1",
+        7847
+      ],
+      [
+        "level1",
+        7862
+      ],
+      [
+        "level1",
+        7887
+      ],
+      [
+        "level1",
+        8033
+      ],
+      [
+        "level1",
+        8094
+      ],
+      [
+        "level1",
+        8148
+      ],
+      [
+        "level1",
+        8169
+      ]
+    ],
+    "addedObjects": 132,
+    "ledger": [
+      {
+        "kind": "disable_auto_ad_timer",
+        "file": "level0",
+        "component": 81,
+        "gameObject": 17,
+        "firstDelay": 5,
+        "repeatInterval": 300,
+        "countdown": 3,
+        "breakSeconds": 7
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6835,
+        "gameObject": 73,
+        "name": "PlayCustom_Btn",
+        "sourceSprite": 1271,
+        "text": "自由布阵",
+        "added": [
+          8174,
+          8175,
+          8176,
+          8177
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6855,
+        "gameObject": 106,
+        "name": "Title_Img",
+        "sourceSprite": 1440,
+        "text": "会员",
+        "added": [
+          8178,
+          8179,
+          8180,
+          8181
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6861,
+        "gameObject": 120,
+        "name": "Back_Btn",
+        "sourceSprite": 1298,
+        "text": "主页",
+        "added": [
+          8182,
+          8183,
+          8184,
+          8185
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6879,
+        "gameObject": 155,
+        "name": "OpenTutorialPanel_Btn",
+        "sourceSprite": 1323,
+        "text": "教程",
+        "added": [
+          8186,
+          8187,
+          8188,
+          8189
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6946,
+        "gameObject": 263,
+        "name": "PlayFirstIncomplete_Btn",
+        "sourceSprite": 1397,
+        "text": "开始",
+        "added": [
+          8190,
+          8191,
+          8192,
+          8193
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7014,
+        "gameObject": 389,
+        "name": "Vip_Btn",
+        "sourceSprite": 1329,
+        "text": "会员",
+        "added": [
+          8194,
+          8195,
+          8196,
+          8197
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7026,
+        "gameObject": 415,
+        "name": "Title",
+        "sourceSprite": 1436,
+        "text": "兵种升级",
+        "added": [
+          8198,
+          8199,
+          8200,
+          8201
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7107,
+        "gameObject": 531,
+        "name": "CrossPromotion_Btn",
+        "sourceSprite": 1395,
+        "text": "更多游戏",
+        "added": [
+          8202,
+          8203,
+          8204,
+          8205
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7117,
+        "gameObject": 544,
+        "name": "SurrenderMulti_Btn",
+        "sourceSprite": 1322,
+        "text": "认输",
+        "added": [
+          8206,
+          8207,
+          8208,
+          8209
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7176,
+        "gameObject": 650,
+        "name": "PlayEpicLevelsInfo_Btn",
+        "sourceSprite": 1272,
+        "text": "史诗关卡",
+        "added": [
+          8210,
+          8211,
+          8212,
+          8213
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7197,
+        "gameObject": 684,
+        "name": "DailyReward_Btn",
+        "sourceSprite": 1283,
+        "text": "领取",
+        "added": [
+          8214,
+          8215,
+          8216,
+          8217
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7214,
+        "gameObject": 706,
+        "name": "Title_Epic_Combos",
+        "sourceSprite": 1432,
+        "text": "史诗组合",
+        "added": [
+          8218,
+          8219,
+          8220,
+          8221
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7244,
+        "gameObject": 755,
+        "name": "Ok_Button",
+        "sourceSprite": 1398,
+        "text": "确定",
+        "added": [
+          8222,
+          8223,
+          8224,
+          8225
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7294,
+        "gameObject": 834,
+        "name": "PlayMultiplayer_Btn",
+        "sourceSprite": 1274,
+        "text": "联机",
+        "added": [
+          8226,
+          8227,
+          8228,
+          8229
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7297,
+        "gameObject": 837,
+        "name": "Shop_Btn",
+        "sourceSprite": 1294,
+        "text": "史诗",
+        "added": [
+          8230,
+          8231,
+          8232,
+          8233
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7345,
+        "gameObject": 914,
+        "name": "Resume_Btn",
+        "sourceSprite": 1312,
+        "text": "继续游戏",
+        "added": [
+          8234,
+          8235,
+          8236,
+          8237
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7373,
+        "gameObject": 949,
+        "name": "InApp_Btn",
+        "sourceSprite": 1315,
+        "text": "商店",
+        "added": [
+          8238,
+          8239,
+          8240,
+          8241
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7440,
+        "gameObject": 1051,
+        "name": "No_Btn",
+        "sourceSprite": 1303,
+        "text": "取消",
+        "added": [
+          8242,
+          8243,
+          8244,
+          8245
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7458,
+        "gameObject": 1068,
+        "name": "Subscription_btn",
+        "sourceSprite": 1319,
+        "text": "订阅",
+        "added": [
+          8246,
+          8247,
+          8248,
+          8249
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7547,
+        "gameObject": 1207,
+        "name": "PlayEpicLevels_Btn",
+        "sourceSprite": 1272,
+        "text": "史诗关卡",
+        "added": [
+          8250,
+          8251,
+          8252,
+          8253
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7576,
+        "gameObject": 1270,
+        "name": "Surrender_Btn",
+        "sourceSprite": 1321,
+        "text": "认输",
+        "added": [
+          8254,
+          8255,
+          8256,
+          8257
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7587,
+        "gameObject": 1289,
+        "name": "Yes_Btn",
+        "sourceSprite": 1330,
+        "text": "确定",
+        "added": [
+          8258,
+          8259,
+          8260,
+          8261
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7654,
+        "gameObject": 1371,
+        "name": "ResetArmy_Btn",
+        "sourceSprite": 1310,
+        "text": "清空",
+        "added": [
+          8262,
+          8263,
+          8264,
+          8265
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7706,
+        "gameObject": 1440,
+        "name": "StartGame_Btn",
+        "sourceSprite": 1320,
+        "text": "开战",
+        "added": [
+          8266,
+          8267,
+          8268,
+          8269
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7740,
+        "gameObject": 1485,
+        "name": "UpgradeStatsLvL_Btn",
+        "sourceSprite": 1325,
+        "text": "升级",
+        "added": [
+          8270,
+          8271,
+          8272,
+          8273
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7754,
+        "gameObject": 1502,
+        "name": "Restart_Btn",
+        "sourceSprite": 1302,
+        "text": "继续战斗",
+        "added": [
+          8274,
+          8275,
+          8276,
+          8277
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7837,
+        "gameObject": 1637,
+        "name": "Restore_Btn",
+        "sourceSprite": 1311,
+        "text": "恢复购买",
+        "added": [
+          8278,
+          8279,
+          8280,
+          8281
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7847,
+        "gameObject": 1653,
+        "name": "Title_Gem_Packs",
+        "sourceSprite": 1434,
+        "text": "宝石商店",
+        "added": [
+          8282,
+          8283,
+          8284,
+          8285
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7862,
+        "gameObject": 1674,
+        "name": "Title_Image",
+        "sourceSprite": 1435,
+        "text": "特别优惠",
+        "added": [
+          8286,
+          8287,
+          8288,
+          8289
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7887,
+        "gameObject": 1712,
+        "name": "Menu_Btn",
+        "sourceSprite": 1296,
+        "text": "返回主页",
+        "added": [
+          8290,
+          8291,
+          8292,
+          8293
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8033,
+        "gameObject": 1928,
+        "name": "PlayLevels_Btn",
+        "sourceSprite": 1273,
+        "text": "关卡",
+        "added": [
+          8294,
+          8295,
+          8296,
+          8297
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8094,
+        "gameObject": 2002,
+        "name": "InAppSpecial_Btn",
+        "sourceSprite": 1318,
+        "text": "特惠",
+        "added": [
+          8298,
+          8299,
+          8300,
+          8301
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8148,
+        "gameObject": 2083,
+        "name": "Title_Epic_Troops",
+        "sourceSprite": 1433,
+        "text": "史诗兵种",
+        "added": [
+          8302,
+          8303,
+          8304,
+          8305
+        ]
+      }
+    ]
+  },
+  {
+    "variant": "sandbox",
+    "inputSHA256": "f47126f4de6d43b976960d7a07e37dba51170f53e5cb8898be6f20f4a874d9e0",
+    "outputSHA256": "5c0dc173200c31825b17ec81fed50a9007df320f67773777df5874c30d04e86c",
+    "changed": [
+      [
+        "level0",
+        17
+      ],
+      [
+        "level0",
+        81
+      ],
+      [
+        "level1",
+        4939
+      ],
+      [
+        "level1",
+        4960
+      ],
+      [
+        "level1",
+        4970
+      ],
+      [
+        "level1",
+        4993
+      ],
+      [
+        "level1",
+        5068
+      ],
+      [
+        "level1",
+        5151
+      ],
+      [
+        "level1",
+        5169
+      ],
+      [
+        "level1",
+        5243
+      ],
+      [
+        "level1",
+        5254
+      ],
+      [
+        "level1",
+        5311
+      ],
+      [
+        "level1",
+        5334
+      ],
+      [
+        "level1",
+        5351
+      ],
+      [
+        "level1",
+        5380
+      ],
+      [
+        "level1",
+        5432
+      ],
+      [
+        "level1",
+        5434
+      ],
+      [
+        "level1",
+        5485
+      ],
+      [
+        "level1",
+        5510
+      ],
+      [
+        "level1",
+        5579
+      ],
+      [
+        "level1",
+        5593
+      ],
+      [
+        "level1",
+        5681
+      ],
+      [
+        "level1",
+        5722
+      ],
+      [
+        "level1",
+        5733
+      ],
+      [
+        "level1",
+        5787
+      ],
+      [
+        "level1",
+        5826
+      ],
+      [
+        "level1",
+        5859
+      ],
+      [
+        "level1",
+        5872
+      ],
+      [
+        "level1",
+        5955
+      ],
+      [
+        "level1",
+        5967
+      ],
+      [
+        "level1",
+        5981
+      ],
+      [
+        "level1",
+        6009
+      ],
+      [
+        "level1",
+        6146
+      ],
+      [
+        "level1",
+        6200
+      ],
+      [
+        "level1",
+        6252
+      ],
+      [
+        "level1",
+        6835
+      ],
+      [
+        "level1",
+        6855
+      ],
+      [
+        "level1",
+        6861
+      ],
+      [
+        "level1",
+        6879
+      ],
+      [
+        "level1",
+        6946
+      ],
+      [
+        "level1",
+        7014
+      ],
+      [
+        "level1",
+        7026
+      ],
+      [
+        "level1",
+        7107
+      ],
+      [
+        "level1",
+        7117
+      ],
+      [
+        "level1",
+        7176
+      ],
+      [
+        "level1",
+        7197
+      ],
+      [
+        "level1",
+        7214
+      ],
+      [
+        "level1",
+        7244
+      ],
+      [
+        "level1",
+        7294
+      ],
+      [
+        "level1",
+        7297
+      ],
+      [
+        "level1",
+        7345
+      ],
+      [
+        "level1",
+        7373
+      ],
+      [
+        "level1",
+        7440
+      ],
+      [
+        "level1",
+        7458
+      ],
+      [
+        "level1",
+        7547
+      ],
+      [
+        "level1",
+        7576
+      ],
+      [
+        "level1",
+        7587
+      ],
+      [
+        "level1",
+        7654
+      ],
+      [
+        "level1",
+        7706
+      ],
+      [
+        "level1",
+        7740
+      ],
+      [
+        "level1",
+        7754
+      ],
+      [
+        "level1",
+        7837
+      ],
+      [
+        "level1",
+        7847
+      ],
+      [
+        "level1",
+        7862
+      ],
+      [
+        "level1",
+        7887
+      ],
+      [
+        "level1",
+        8033
+      ],
+      [
+        "level1",
+        8094
+      ],
+      [
+        "level1",
+        8148
+      ],
+      [
+        "level1",
+        8169
+      ]
+    ],
+    "addedObjects": 132,
+    "ledger": [
+      {
+        "kind": "disable_auto_ad_timer",
+        "file": "level0",
+        "component": 81,
+        "gameObject": 17,
+        "firstDelay": 5,
+        "repeatInterval": 300,
+        "countdown": 3,
+        "breakSeconds": 7
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6835,
+        "gameObject": 73,
+        "name": "PlayCustom_Btn",
+        "sourceSprite": 1271,
+        "text": "自由布阵",
+        "added": [
+          8174,
+          8175,
+          8176,
+          8177
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6855,
+        "gameObject": 106,
+        "name": "Title_Img",
+        "sourceSprite": 1440,
+        "text": "会员",
+        "added": [
+          8178,
+          8179,
+          8180,
+          8181
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6861,
+        "gameObject": 120,
+        "name": "Back_Btn",
+        "sourceSprite": 1298,
+        "text": "主页",
+        "added": [
+          8182,
+          8183,
+          8184,
+          8185
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6879,
+        "gameObject": 155,
+        "name": "OpenTutorialPanel_Btn",
+        "sourceSprite": 1323,
+        "text": "教程",
+        "added": [
+          8186,
+          8187,
+          8188,
+          8189
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 6946,
+        "gameObject": 263,
+        "name": "PlayFirstIncomplete_Btn",
+        "sourceSprite": 1397,
+        "text": "开始",
+        "added": [
+          8190,
+          8191,
+          8192,
+          8193
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7014,
+        "gameObject": 389,
+        "name": "Vip_Btn",
+        "sourceSprite": 1329,
+        "text": "会员",
+        "added": [
+          8194,
+          8195,
+          8196,
+          8197
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7026,
+        "gameObject": 415,
+        "name": "Title",
+        "sourceSprite": 1436,
+        "text": "兵种升级",
+        "added": [
+          8198,
+          8199,
+          8200,
+          8201
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7107,
+        "gameObject": 531,
+        "name": "CrossPromotion_Btn",
+        "sourceSprite": 1395,
+        "text": "更多游戏",
+        "added": [
+          8202,
+          8203,
+          8204,
+          8205
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7117,
+        "gameObject": 544,
+        "name": "SurrenderMulti_Btn",
+        "sourceSprite": 1322,
+        "text": "认输",
+        "added": [
+          8206,
+          8207,
+          8208,
+          8209
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7176,
+        "gameObject": 650,
+        "name": "PlayEpicLevelsInfo_Btn",
+        "sourceSprite": 1272,
+        "text": "史诗关卡",
+        "added": [
+          8210,
+          8211,
+          8212,
+          8213
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7197,
+        "gameObject": 684,
+        "name": "DailyReward_Btn",
+        "sourceSprite": 1283,
+        "text": "领取",
+        "added": [
+          8214,
+          8215,
+          8216,
+          8217
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7214,
+        "gameObject": 706,
+        "name": "Title_Epic_Combos",
+        "sourceSprite": 1432,
+        "text": "史诗组合",
+        "added": [
+          8218,
+          8219,
+          8220,
+          8221
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7244,
+        "gameObject": 755,
+        "name": "Ok_Button",
+        "sourceSprite": 1398,
+        "text": "确定",
+        "added": [
+          8222,
+          8223,
+          8224,
+          8225
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7294,
+        "gameObject": 834,
+        "name": "PlayMultiplayer_Btn",
+        "sourceSprite": 1274,
+        "text": "联机",
+        "added": [
+          8226,
+          8227,
+          8228,
+          8229
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7297,
+        "gameObject": 837,
+        "name": "Shop_Btn",
+        "sourceSprite": 1294,
+        "text": "史诗",
+        "added": [
+          8230,
+          8231,
+          8232,
+          8233
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7345,
+        "gameObject": 914,
+        "name": "Resume_Btn",
+        "sourceSprite": 1312,
+        "text": "继续游戏",
+        "added": [
+          8234,
+          8235,
+          8236,
+          8237
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7373,
+        "gameObject": 949,
+        "name": "InApp_Btn",
+        "sourceSprite": 1315,
+        "text": "商店",
+        "added": [
+          8238,
+          8239,
+          8240,
+          8241
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7440,
+        "gameObject": 1051,
+        "name": "No_Btn",
+        "sourceSprite": 1303,
+        "text": "取消",
+        "added": [
+          8242,
+          8243,
+          8244,
+          8245
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7458,
+        "gameObject": 1068,
+        "name": "Subscription_btn",
+        "sourceSprite": 1319,
+        "text": "订阅",
+        "added": [
+          8246,
+          8247,
+          8248,
+          8249
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7547,
+        "gameObject": 1207,
+        "name": "PlayEpicLevels_Btn",
+        "sourceSprite": 1272,
+        "text": "史诗关卡",
+        "added": [
+          8250,
+          8251,
+          8252,
+          8253
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7576,
+        "gameObject": 1270,
+        "name": "Surrender_Btn",
+        "sourceSprite": 1321,
+        "text": "认输",
+        "added": [
+          8254,
+          8255,
+          8256,
+          8257
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7587,
+        "gameObject": 1289,
+        "name": "Yes_Btn",
+        "sourceSprite": 1330,
+        "text": "确定",
+        "added": [
+          8258,
+          8259,
+          8260,
+          8261
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7654,
+        "gameObject": 1371,
+        "name": "ResetArmy_Btn",
+        "sourceSprite": 1310,
+        "text": "清空",
+        "added": [
+          8262,
+          8263,
+          8264,
+          8265
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7706,
+        "gameObject": 1440,
+        "name": "StartGame_Btn",
+        "sourceSprite": 1320,
+        "text": "开战",
+        "added": [
+          8266,
+          8267,
+          8268,
+          8269
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7740,
+        "gameObject": 1485,
+        "name": "UpgradeStatsLvL_Btn",
+        "sourceSprite": 1325,
+        "text": "升级",
+        "added": [
+          8270,
+          8271,
+          8272,
+          8273
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7754,
+        "gameObject": 1502,
+        "name": "Restart_Btn",
+        "sourceSprite": 1302,
+        "text": "继续战斗",
+        "added": [
+          8274,
+          8275,
+          8276,
+          8277
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7837,
+        "gameObject": 1637,
+        "name": "Restore_Btn",
+        "sourceSprite": 1311,
+        "text": "恢复购买",
+        "added": [
+          8278,
+          8279,
+          8280,
+          8281
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7847,
+        "gameObject": 1653,
+        "name": "Title_Gem_Packs",
+        "sourceSprite": 1434,
+        "text": "宝石商店",
+        "added": [
+          8282,
+          8283,
+          8284,
+          8285
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7862,
+        "gameObject": 1674,
+        "name": "Title_Image",
+        "sourceSprite": 1435,
+        "text": "特别优惠",
+        "added": [
+          8286,
+          8287,
+          8288,
+          8289
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 7887,
+        "gameObject": 1712,
+        "name": "Menu_Btn",
+        "sourceSprite": 1296,
+        "text": "返回主页",
+        "added": [
+          8290,
+          8291,
+          8292,
+          8293
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8033,
+        "gameObject": 1928,
+        "name": "PlayLevels_Btn",
+        "sourceSprite": 1273,
+        "text": "关卡",
+        "added": [
+          8294,
+          8295,
+          8296,
+          8297
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8094,
+        "gameObject": 2002,
+        "name": "InAppSpecial_Btn",
+        "sourceSprite": 1318,
+        "text": "特惠",
+        "added": [
+          8298,
+          8299,
+          8300,
+          8301
+        ]
+      },
+      {
+        "kind": "native_button_label",
+        "file": "level1",
+        "image": 8148,
+        "gameObject": 2083,
+        "name": "Title_Epic_Troops",
+        "sourceSprite": 1433,
+        "text": "史诗兵种",
+        "added": [
+          8302,
+          8303,
+          8304,
+          8305
+        ]
+      }
+    ]
+  }
+]

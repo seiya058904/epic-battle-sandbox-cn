@@ -1,0 +1,12 @@
+{
+  "headerRemoved": true,
+  "defaultSandbox": true,
+  "desktopCanvas": "1280x720 at 0,0",
+  "mobileCanvas": {
+    "x": 75.328125,
+    "y": 0,
+    "width": 693.328125,
+    "height": 390
+  },
+  "pageerrors": []
+}

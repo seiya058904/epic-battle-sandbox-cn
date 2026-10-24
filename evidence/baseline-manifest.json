@@ -1,0 +1,35 @@
+{
+  "commit": "5b6e7f7035a4246fac6f58aca6799d5eaacfcc5d",
+  "files": [
+    {
+      "path": "Build/EBS.data",
+      "size": 40460936,
+      "sha256": "04ec370550c3fb4935c65d103d6a56cbccb40a88243fec81d0d89d90f52220b5"
+    },
+    {
+      "path": "Build/EBS.framework.js",
+      "size": 431932,
+      "sha256": "bc6e0a9da2b0866e21c146339226ff66435eb763ae6eb34c8e05859d0c4379d8"
+    },
+    {
+      "path": "Build/EBS.loader.js",
+      "size": 20680,
+      "sha256": "95d413ec942c6764ee89174a13da7a4c7f80567f6a4fb43992a6e8273c3b93d2"
+    },
+    {
+      "path": "Build/EBS.wasm",
+      "size": 44528108,
+      "sha256": "4bd3a7a9e740c0a876ef25a11e4f108eacff3a2d6c49326d65610fd72b2f42e1"
+    },
+    {
+      "path": "TemplateData/style.css",
+      "size": 2600,
+      "sha256": "699a51ae238823e6ae005524adc533757bdc3df68f3f138e2443762511a3ec69"
+    },
+    {
+      "path": "index.html",
+      "size": 3059,
+      "sha256": "d0fe07e9248d48cda572767db3b39281eb96354469e9b92103a84c54d8b7e6b0"
+    }
+  ]
+}

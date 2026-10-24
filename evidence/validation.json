@@ -1,0 +1,467 @@
+{
+  "date": "2026-10-24T15:53:14.531871+08:00",
+  "version": "0.1.0",
+  "origin": "http://127.0.0.1:8765",
+  "localization": {
+    "mapped_unique": 111,
+    "visually_verified_unique": 29,
+    "fully_translated_reviewed_surfaces": 0,
+    "reviewed_surfaces": 9
+  },
+  "scenarios": {
+    "baseline": {
+      "identity": [
+        {
+          "time": 1792827506.0662766,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/",
+          "title": "Unity WebGL Player",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 250085376,
+            "jsHeapBytes": 52181528,
+            "maxTouchPoints": 10
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 50250,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        },
+        "after-battle": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 50270,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [
+        "adConfig is not a function"
+      ],
+      "console_error_counts": {
+        "Failed to load resource: net::ERR_FAILED": 7
+      },
+      "render_samples": [],
+      "screenshots": [
+        "home",
+        "settings",
+        "custom",
+        "formation",
+        "battle",
+        "pause",
+        "resume",
+        "result"
+      ]
+    },
+    "localized": {
+      "identity": [
+        {
+          "time": 1792827570.7732973,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/local.html",
+          "title": "本地中文沙盒 · 实验版 0.1.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 261881856,
+            "jsHeapBytes": 54346448,
+            "maxTouchPoints": 10
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 100270,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        },
+        "after-battle": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 100290,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [],
+      "console_error_counts": {
+        "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy.": 1,
+        "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 4,
+        "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy.": 4,
+        "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy.": 1
+      },
+      "render_samples": [],
+      "screenshots": [
+        "home",
+        "settings",
+        "custom",
+        "formation",
+        "battle",
+        "pause",
+        "resume",
+        "result"
+      ]
+    },
+    "resources": {
+      "identity": [
+        {
+          "time": 1792827911.3070354,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/local.html",
+          "title": "本地中文沙盒 · 实验版 0.1.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 261881856,
+            "jsHeapBytes": 57701961,
+            "maxTouchPoints": 10
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 150290,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        },
+        "sandbox-before": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 1000049999,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        },
+        "spend-1": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 1000049799,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        },
+        "spend-2": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 1000048399,
+          "Crossbow": 1,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        },
+        "spend-3": {
+          "Archer": 1,
+          "AxeMan": 0,
+          "Consumables": 1000046999,
+          "Crossbow": 1,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        },
+        "refresh": {
+          "Archer": 1,
+          "AxeMan": 0,
+          "Consumables": 1000049999,
+          "Crossbow": 1,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        },
+        "reopen": {
+          "Archer": 1,
+          "AxeMan": 0,
+          "Consumables": 1000049999,
+          "Crossbow": 1,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        },
+        "off": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 200290,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [],
+      "console_error_counts": {
+        "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 5,
+        "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy.": 5,
+        "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 17,
+        "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy.": 17,
+        "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 5,
+        "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy.": 5
+      },
+      "render_samples": [],
+      "screenshots": [
+        "home",
+        "normal-upgrades",
+        "sandbox-before",
+        "spend-1",
+        "spend-2",
+        "spend-3",
+        "refresh",
+        "reopen",
+        "off"
+      ]
+    },
+    "mobile": {
+      "identity": [
+        {
+          "time": 1792828012.874743,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/local.html",
+          "title": "本地中文沙盒 · 实验版 0.1.0",
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 261685248,
+            "jsHeapBytes": 54366139,
+            "maxTouchPoints": 1
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 50250,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        },
+        "after-battle": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 50270,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [],
+      "console_error_counts": {
+        "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy.": 1,
+        "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 4,
+        "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy.": 4,
+        "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy.": 1
+      },
+      "render_samples": [
+        {
+          "time": 1792827975.452522,
+          "kind": "render-sample",
+          "name": "home",
+          "values": {
+            "drawFrames": 801,
+            "durationMs": 2502.5,
+            "renderFps": 320.0799200799201
+          }
+        }
+      ],
+      "screenshots": [
+        "home",
+        "settings",
+        "custom",
+        "formation",
+        "battle",
+        "pause",
+        "resume",
+        "result",
+        "result-dismissed"
+      ]
+    },
+    "menus": {
+      "identity": [
+        {
+          "time": 1792828088.745173,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/local.html",
+          "title": "本地中文沙盒 · 实验版 0.1.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 261881856,
+            "jsHeapBytes": 55744229,
+            "maxTouchPoints": 10
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 0,
+          "AxeMan": 0,
+          "Consumables": 250290,
+          "Crossbow": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 0,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [],
+      "console_error_counts": {
+        "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 3,
+        "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy.": 3,
+        "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 9,
+        "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy.": 9,
+        "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 3,
+        "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy.": 3
+      },
+      "render_samples": [
+        {
+          "time": 1792828046.354962,
+          "kind": "render-sample",
+          "name": "home",
+          "values": {
+            "drawFrames": 801,
+            "durationMs": 2500.7000000029802,
+            "renderFps": 320.3103131119468
+          }
+        }
+      ],
+      "screenshots": [
+        "home",
+        "levels",
+        "shop",
+        "upgrades"
+      ]
+    },
+    "probe": {
+      "identity": [
+        {
+          "time": 1792828325.8107097,
+          "kind": "identity",
+          "url": "http://127.0.0.1:8765/local.html?sandbox=1",
+          "title": "本地中文沙盒 · 实验版 0.1.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "chromium": "156.0.8078.4",
+          "runtime": {
+            "wasmMemoryBytes": 261881856,
+            "jsHeapBytes": 53989607,
+            "maxTouchPoints": 10
+          }
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Archer": 1,
+          "AxeMan": 0,
+          "Consumables": 1000049999,
+          "Crossbow": 1,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0,
+          "LevelsCompleted": 0,
+          "Man": 1,
+          "SpearMan": 0
+        }
+      },
+      "pageerrors": [],
+      "console_error_counts": {
+        "Connecting to 'https://config.uca.cloud.unity3d.com/' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://config.uca.cloud.unity3d.com/. Refused to connect because it violates the document's Content Security Policy.": 1,
+        "Connecting to 'https://cdp.cloud.unity3d.com/v1/events' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 3,
+        "Fetch API cannot load https://cdp.cloud.unity3d.com/v1/events. Refused to connect because it violates the document's Content Security Policy.": 3,
+        "Connecting to 'https://www.madkidgames.com/whitelisted.json' violates the following Content Security Policy directive: \"connect-src 'self'\". The action has been blocked.": 1,
+        "Fetch API cannot load https://www.madkidgames.com/whitelisted.json. Refused to connect because it violates the document's Content Security Policy.": 1
+      },
+      "render_samples": [
+        {
+          "time": 1792828310.623726,
+          "kind": "render-sample",
+          "name": "home",
+          "values": {
+            "drawFrames": 801,
+            "durationMs": 2502.7000000029802,
+            "renderFps": 320.0543413110026
+          }
+        }
+      ],
+      "screenshots": [
+        "home",
+        "budget-before",
+        "budget-after",
+        "costly-unit",
+        "budget-limit"
+      ]
+    }
+  },
+  "resource_consumption_assertions": "PASS"
+}

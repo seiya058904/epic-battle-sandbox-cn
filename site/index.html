@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Epic Battle Sandbox CN：个人本地 Unity WebGL 中文沙盒补丁。了解真实汉化覆盖、资源配置、存档隔离和本地运行方法。">
+  <meta name="theme-color" content="#173c58">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; img-src 'self'; script-src 'none'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>史诗战斗·中文沙盒 — Epic Battle Sandbox CN</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <div class="page">
+    <header>
+      <a class="brand" href="./" aria-label="史诗战斗中文沙盒首页">EBS <span>中文沙盒</span></a>
+      <nav aria-label="页面导航"><a href="#features">功能与边界</a><a href="#start">本地运行</a><a href="https://github.com/seiya058904/epic-battle-sandbox-cn">GitHub <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="intro" aria-labelledby="title">
+        <div>
+          <h1 id="title">史诗战斗，<br>在本地自在布阵。</h1>
+          <p class="lead">Epic Battle Sandbox CN 为现有 WebGL 构建加入中文界面、充足资源与满级兵种，让个人沙盒实验更直接。</p>
+          <p class="intro-note">原有 3D 与自动战斗保留。真实的游戏内文本，独立的本地存档，每项结果都有可追溯的验证记录。</p>
+          <div class="actions"><a class="primary" href="#start">查看本地运行方法 <span aria-hidden="true">↓</span></a><a href="https://github.com/seiya058904/epic-battle-sandbox-cn/blob/main/AUDIT.md">阅读验收记录 <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <aside class="edition" aria-label="项目发布信息">
+          <span class="edition-name">Epic Battle<br>Sandbox CN</span>
+          <dl><div><dt>补丁版本</dt><dd>0.3.2</dd></div><div><dt>使用方式</dt><dd>个人本地单机</dd></div><div><dt>中文覆盖</dt><dd>部分完成</dd></div><div><dt>公开内容</dt><dd>代码 · 补丁 · 文档</dd></div></dl>
+          <p>这是非官方实验项目。本站是项目手册，不提供在线游戏或游戏资产下载。</p>
+        </aside>
+      </section>
+
+      <section id="features" class="section" aria-labelledby="feature-title">
+        <div class="section-head"><h2 id="feature-title">做到哪一步，<br>就写到哪一步。</h2><p>不把网页翻译当成游戏汉化，也不把一个很大的显示数字当成无限资源。</p></div>
+        <p class="scroll-hint">左右滑动表格，查看完整的验证边界。</p>
+        <div class="table-scroll" role="region" aria-label="功能验证情况，可横向滚动" tabindex="0">
+          <table><thead><tr><th scope="col">能力</th><th scope="col">当前结果</th><th scope="col">你需要知道</th></tr></thead><tbody>
+            <tr><th scope="row">游戏内中文</th><td>中文标签进入 Unity Canvas，包含主页、布阵、暂停和结算等常用按钮。</td><td>新增 33 处标签，19 处已逐项目视确认；部分商品图和品牌标识仍为英文。</td></tr>
+            <tr><th scope="row">充足宝石</th><td>启动补充至 999999999；游戏真实消费并保存。</td><td>大额有限余额。历史完成三次真实升级扣费，当前默认兵种已经满级。</td></tr>
+            <tr><th scope="row">满级与布阵</th><td>37 种兵种设为 3 级，8 种史诗单位本地可用；预算及人数配额扩大。</td><td>人数配额 1000，实测布阵 163 人。地形、碰撞与硬件限制仍然存在。</td></tr>
+            <tr><th scope="row">安静试玩</th><td>去掉自动广告倒计时；打开本地入口直接进入当前模式。</td><td>连续观察 360 秒未出现该倒计时。评分提示仍可能出现。</td></tr>
+            <tr><th scope="row">独立存档</th><td>普通档与沙盒档分开，已验证刷新、重开及普通档隔离。</td><td>固定本地 origin；不覆盖个人存档，不改线上账户与支付状态。</td></tr>
+          </tbody></table>
+        </div>
+        <p class="caption">桌面和模拟 Android 触屏已验证基本战斗流程。真实 Android 设备、全部关卡和 1000 人压力测试未完成。<a href="https://github.com/seiya058904/epic-battle-sandbox-cn/blob/main/localization/zh-CN.md">查看汉化明细 ↗</a></p>
+      </section>
+
+      <section id="start" class="section start" aria-labelledby="start-title">
+        <div><h2 id="start-title">把战场留在本机。</h2><p>公开仓库保持轻量，只保存代码和文档。原始游戏文件、生成包与个人存档始终留在你的电脑上。</p><a class="text-link" href="https://github.com/seiya058904/epic-battle-sandbox-cn/blob/main/README_LOCAL.md">打开完整运行与恢复指南 ↗</a></div>
+        <div>
+          <ol class="steps">
+            <li><h3>准备有权使用的构建</h3><p>克隆补丁仓库，导入自行准备的原始文件。六项 SHA-256 必须与基线清单一致，导入工具不会覆盖不同版本。</p></li>
+            <li><h3>按顺序重建本地补丁</h3><p>按指南准备 Python 环境与 Noto 字体，再生成中文资源、沙盒资源和原生中文按钮三个阶段。</p></li>
+            <li><h3>启动，然后开始布阵</h3><p>已经准备好本地文件的电脑，在项目目录执行：</p><pre><code>./Start-Local.ps1</code></pre><p>固定地址：<code class="url">http://127.0.0.1:8765/local.html</code></p></li>
+          </ol>
+          <p class="small">只克隆代码还不能启动游戏。不要改端口或直接打开 file://，否则资源加载和存档可能不符合预期。</p>
+        </div>
+      </section>
+
+      <section class="section questions" aria-labelledby="questions-title">
+        <h2 id="questions-title">开始前，几个明确的答案。</h2>
+        <details><summary>这是官方版或完整汉化版吗？</summary><p>不是。它是针对指定编译构建的非官方实验补丁，汉化为部分完成。构建标题不能证明它与 Rappid Studios 手机版属于同一版本，原始游戏也没有在这里被宣称为开源。</p></details>
+        <details><summary>资源是严格无限，所有限制都解除了？</summary><p>不是。宝石在每次启动时补充为大额有限值，游戏依然正常扣费；金币和人数配额扩大，地形、碰撞及性能边界保留。本地可用兵种不代表真实购买或线上解锁。</p></details>
+        <details><summary>如何恢复普通模式，存档会不会丢？</summary><p>在菜单中打开同一地址并加上 <code>?sandbox=0</code>，即可使用普通模式。普通档与沙盒档分开保存；不要删除浏览器配置或更换本地 origin。完整回滚步骤见运行指南。</p></details>
+        <details><summary>为什么网站没有“开始游戏”按钮？</summary><p>本次公开范围仅为代码、补丁和文档。游戏资产、生成构建与个人存档不会上传到 GitHub 或 Pages；本机已有的游戏仍可正常启动。</p></details>
+      </section>
+    </main>
+    <footer><p><strong>Epic Battle Sandbox CN</strong><br>史诗战斗·中文沙盒 / 项目手册</p><div><a href="https://github.com/seiya058904/epic-battle-sandbox-cn/blob/main/CHANGELOG.md">更新记录</a><a href="https://github.com/seiya058904/epic-battle-sandbox-cn/blob/main/NOTICE.md">来源与权利说明</a><a href="https://github.com/seiya058904/epic-battle-sandbox-cn">仓库源码</a></div><p class="small">游戏与品牌权利归各自权利人。<br>个人本地实验，不连接官方账户或支付服务。</p></footer>
+  </div>
+</body>
+</html>

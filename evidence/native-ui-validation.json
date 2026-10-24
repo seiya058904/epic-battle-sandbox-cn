@@ -1,0 +1,360 @@
+{
+  "version": "0.3.0",
+  "date": "2026-10-24",
+  "browserPath": "Browser plugin not available; project Python Playwright + Chromium 156",
+  "nativeLabels": {
+    "addedInstances": 33,
+    "visuallyReviewedInstances": 19,
+    "totalGameTranslationStatus": "PARTIAL"
+  },
+  "autoAd": {
+    "originalFirstDelay": 5,
+    "originalRepeatInterval": 300,
+    "baselineScreenshot": "output/playwright/v3/before/8.png",
+    "observation": {
+      "seconds": 360.0939999999973,
+      "adCalls": [],
+      "url": "http://127.0.0.1:8765/local.html",
+      "title": "本地中文沙盒 · 实验版 0.3.0"
+    },
+    "visualResult": "No countdown/ad overlay in reviewed screenshots at 8, 305, 315, 360 seconds",
+    "instrumentationLimit": "adCalls observes WebAssembly.instantiate import path only; result is supported by timer component disabled in serialized scene and visual observation, not solely this counter"
+  },
+  "scenarios": {
+    "desktop": {
+      "checks": [
+        {
+          "time": 1792831009.046773,
+          "kind": "checks",
+          "url": "http://127.0.0.1:8765/local.html?sandbox=0",
+          "title": "本地中文沙盒 · 实验版 0.3.0",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "touch": false,
+          "complete": true
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Consumables": 1000050249,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "result": {
+          "Consumables": 1000050019,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "refresh": {
+          "Consumables": 1000049999,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "normal-mode": {
+          "Consumables": 50250,
+          "Man": 0,
+          "Wolf": "locked",
+          "WolfBoss": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        }
+      },
+      "pageerrors": [],
+      "unexpectedConsoleErrors": [],
+      "logs": "output/playwright/v3/desktop/events.json"
+    },
+    "mobile": {
+      "checks": [
+        {
+          "time": 1792831016.6821456,
+          "kind": "checks",
+          "url": "http://127.0.0.1:8765/local.html?sandbox=0",
+          "title": "本地中文沙盒 · 实验版 0.3.0",
+          "viewport": {
+            "width": 844,
+            "height": 390
+          },
+          "touch": true,
+          "complete": true
+        }
+      ],
+      "prefs": {
+        "initial": {
+          "Consumables": 1000050249,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "result": {
+          "Consumables": 1000050019,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "refresh": {
+          "Consumables": 1000049999,
+          "Man": 2,
+          "Wolf": 2,
+          "WolfBoss": 2,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        },
+        "normal-mode": {
+          "Consumables": 50250,
+          "Man": 0,
+          "Wolf": "locked",
+          "WolfBoss": 0,
+          "HasBoughtIAP": 0,
+          "HasSubscriptionGoogle": 0
+        }
+      },
+      "pageerrors": [],
+      "unexpectedConsoleErrors": [],
+      "logs": "output/playwright/v3/mobile/events.json"
+    }
+  },
+  "screenshots": [
+    {
+      "path": "output/playwright/v3/before/0.png",
+      "sha256": "e01f5bb87654a182308b267cd74c37443a571b273e94a760a681e1b722e1cead"
+    },
+    {
+      "path": "output/playwright/v3/before/10.png",
+      "sha256": "c165a6b3f37835840fc3db7b7bec2686c11ce8571af3e14332f83f1a49c09144"
+    },
+    {
+      "path": "output/playwright/v3/before/12.png",
+      "sha256": "e4ea298ec2c2564180eb44cc502d6affe672363287070baf2603dad489b1f307"
+    },
+    {
+      "path": "output/playwright/v3/before/14.png",
+      "sha256": "080912480c390ac5714b327b5d7aef6a36988a42bea1544c4b2e3e4cbc503ea1"
+    },
+    {
+      "path": "output/playwright/v3/before/2.png",
+      "sha256": "9edc42d2eab29a484f44ddf4a37749976a6835a0760cadfc39abc088673163e5"
+    },
+    {
+      "path": "output/playwright/v3/before/4.png",
+      "sha256": "0c517b59fbeeb74935b9547815a03a1e96f7a2241cb47abf93aa1eac08dc7cc8"
+    },
+    {
+      "path": "output/playwright/v3/before/6.png",
+      "sha256": "68a73be7117d0b2f389f143d4ddbf2d2d277dfcebdddc09660576a617ce82dab"
+    },
+    {
+      "path": "output/playwright/v3/before/8.png",
+      "sha256": "5b1eaee9d1f819c978f458df19a2b9a1e3eb20c5848267cc86fa9036cf67ad4e"
+    },
+    {
+      "path": "output/playwright/v3/desktop/battle.png",
+      "sha256": "1e7c21dc1f9acf0ada80cc402934867cc0511fc5a5081f59be87b2d19935cb70"
+    },
+    {
+      "path": "output/playwright/v3/desktop/clear.png",
+      "sha256": "787f4152c03500eefd123e1ddb98d76054fe068e2b9a1dfa3b0bc9182590e94c"
+    },
+    {
+      "path": "output/playwright/v3/desktop/custom-empty.png",
+      "sha256": "f0009cee8e95bb319131809c1e95f63c06cd8125942b16fd02356c410330dcbc"
+    },
+    {
+      "path": "output/playwright/v3/desktop/formation.png",
+      "sha256": "39d79e67a40cb896235251f0af4b46dfded30d67f67d30c2f1e0e00dff3734c0"
+    },
+    {
+      "path": "output/playwright/v3/desktop/home.png",
+      "sha256": "4e3346ed875dae9a9cb46a7cf0e2c1cdb96c0074a8ff8fef224e715b67f93acc"
+    },
+    {
+      "path": "output/playwright/v3/desktop/levels.png",
+      "sha256": "68aae56c8fbcbed3c5ed0b6d773ae9cd1c420122ed02e82a9a0ae6b6cc77b5f0"
+    },
+    {
+      "path": "output/playwright/v3/desktop/normal-mode.png",
+      "sha256": "b107d9df7262203960d1d2c7988aa621d5342a359894cdde84d2cf9f75f91413"
+    },
+    {
+      "path": "output/playwright/v3/desktop/pause.png",
+      "sha256": "d6b1af249893121378badb75bc8eb1d267a516c5149e3fbdc124c885d9f662a1"
+    },
+    {
+      "path": "output/playwright/v3/desktop/refresh.png",
+      "sha256": "de56164ba6901c9922543cf16d3d1dc262cd4dd3182ceeaa040f443db1b7039f"
+    },
+    {
+      "path": "output/playwright/v3/desktop/result-after-dismiss.png",
+      "sha256": "ddff85e17051567eeff9084c0a3a36766e92f8ea15e36f4ee601b076490edaa3"
+    },
+    {
+      "path": "output/playwright/v3/desktop/result.png",
+      "sha256": "99ed643ac126990da8429daa6d49658482288caeb57ea3d2eafa4c1b9ca466c8"
+    },
+    {
+      "path": "output/playwright/v3/desktop/resume.png",
+      "sha256": "d739473a270f6377882e004a7a035e98501ed3d8a92f057ebff041fb63f9de3b"
+    },
+    {
+      "path": "output/playwright/v3/desktop/settings.png",
+      "sha256": "7b2cd822bffd4d80a7517f4469d3fa09f758d9d4d0c60f6282c0b5f9326ee2cc"
+    },
+    {
+      "path": "output/playwright/v3/desktop/shop.png",
+      "sha256": "e95b7abae5b70662dd030f87865e43e0b930db784f36b8e47bfd070360bca6ad"
+    },
+    {
+      "path": "output/playwright/v3/desktop/upgrades.png",
+      "sha256": "860979c50c30b185027f327600e8b734b2b1bb2848854cff6b595b2b11e7b944"
+    },
+    {
+      "path": "output/playwright/v3/mobile/battle.png",
+      "sha256": "3c9875af3a44290ab798f90390b660b14cc168fed9c22797160dee2de85100f5"
+    },
+    {
+      "path": "output/playwright/v3/mobile/clear.png",
+      "sha256": "8599fe4385168d7b1a57cc6f7c32b45b48acc0600a1a050327e3b87113d7a4ce"
+    },
+    {
+      "path": "output/playwright/v3/mobile/custom-empty.png",
+      "sha256": "e304e0d7f13af6ceee3033119204621b6468384968e542538a338be745421b06"
+    },
+    {
+      "path": "output/playwright/v3/mobile/formation.png",
+      "sha256": "d40ba709c4c53aec5e155533f97c9aa38920fda0116d4206e380597bd927a5e7"
+    },
+    {
+      "path": "output/playwright/v3/mobile/home.png",
+      "sha256": "8502e090a30dc622768dc774c93e7056a142f103b9244ab938835d6f6fecd879"
+    },
+    {
+      "path": "output/playwright/v3/mobile/levels.png",
+      "sha256": "5ee09b911b84f015710c5f2056ddac3bf9263abd963be3a95deb91c22898063b"
+    },
+    {
+      "path": "output/playwright/v3/mobile/normal-mode.png",
+      "sha256": "40fac5c7fec28830d3508a48b7127a711329ba400baa3f762a5dba5576904d52"
+    },
+    {
+      "path": "output/playwright/v3/mobile/pause.png",
+      "sha256": "f09018fae1d1c0663b0ab32b01f59548744d8de5bb0221345fe0ad7ff9ac2208"
+    },
+    {
+      "path": "output/playwright/v3/mobile/refresh.png",
+      "sha256": "8dc01f56a6cc7b32f5f8cbee2c313a34794fe0c2a3ba6dfe1f77b21dcf7fb207"
+    },
+    {
+      "path": "output/playwright/v3/mobile/result-after-dismiss.png",
+      "sha256": "debb17bb2396e2807b8911f64a6cdf6186d614d030482809ae8b87cd57e6ef82"
+    },
+    {
+      "path": "output/playwright/v3/mobile/result.png",
+      "sha256": "156aecebf4fa0d249ca02847c63753e71d11d83b444dab086e1c2d63826123ae"
+    },
+    {
+      "path": "output/playwright/v3/mobile/resume.png",
+      "sha256": "cdd7cff260895f264ad5ae1ddac658f109a8fe58af8ffa9c6ac4d8642bd2a815"
+    },
+    {
+      "path": "output/playwright/v3/mobile/settings.png",
+      "sha256": "fa5741f8462f80df61daa48e83d67df6098a0b071f8fea4ce1fb1ac69377a219"
+    },
+    {
+      "path": "output/playwright/v3/mobile/shop.png",
+      "sha256": "916f6909af52a950f5ffecf0cc65ab4c663f73d2dae6336a26098830d853d514"
+    },
+    {
+      "path": "output/playwright/v3/mobile/upgrades.png",
+      "sha256": "c8d903641cf749d7bbc1a8fdd197bd0b819798e04fd07f36ba2001d9ebcf9325"
+    },
+    {
+      "path": "output/playwright/v3/idle/0.png",
+      "sha256": "ed2edb3047298f6eb2066e1ddab784ad196b3e7c6fb3df8662375b7398ef4834"
+    },
+    {
+      "path": "output/playwright/v3/idle/12.png",
+      "sha256": "90efad5ac3aecf20c4c99724019a0e31aaea6b6381a6eb995b14c48ededa5e0c"
+    },
+    {
+      "path": "output/playwright/v3/idle/120.png",
+      "sha256": "3d469f227834fa34b6f1553d85a6751f4b8f71ebc3e671d9f1cd46f027934ebe"
+    },
+    {
+      "path": "output/playwright/v3/idle/180.png",
+      "sha256": "27dbdc1176c0d1f880e8a26931377305ef4075087d775854a31b015affbc81b7"
+    },
+    {
+      "path": "output/playwright/v3/idle/20.png",
+      "sha256": "cfe932cffbd563f245e93194421b51d4154252a7dca9190199ba93d28fc221cf"
+    },
+    {
+      "path": "output/playwright/v3/idle/240.png",
+      "sha256": "8013aaf6e4626c1bb64f4ded2ff1b73b1d8fe073b4d6d1c99d51124b6d168a25"
+    },
+    {
+      "path": "output/playwright/v3/idle/295.png",
+      "sha256": "6922372de50896341b74a40289c81a54bf93687a5f33aa44844467de212ba7c3"
+    },
+    {
+      "path": "output/playwright/v3/idle/300.png",
+      "sha256": "0e02525ab9ee1ed99907aa21b17c4087b6d4acd298adcc3c2fe5c781eae3c755"
+    },
+    {
+      "path": "output/playwright/v3/idle/305.png",
+      "sha256": "ed5cdab0557506bb5744ffb1e152c6addad67f50d29ec904825b5658bbb0579e"
+    },
+    {
+      "path": "output/playwright/v3/idle/310.png",
+      "sha256": "2355371e9277601f1f98a5d5cbaa576439521e0d7e91f0de5f90ee1f0349ce6e"
+    },
+    {
+      "path": "output/playwright/v3/idle/315.png",
+      "sha256": "35f717715a6f59d422050e43e827b376b7de6e6a6f8544d76b743b63141d4a95"
+    },
+    {
+      "path": "output/playwright/v3/idle/330.png",
+      "sha256": "94c107d589320ca55f391a82b1a859c0a522c679508c0c82d2f02200aa13d616"
+    },
+    {
+      "path": "output/playwright/v3/idle/360.png",
+      "sha256": "0bf48c59dce8257163288d65612f0b8a4009b161f67070f648a925cfd52a971a"
+    },
+    {
+      "path": "output/playwright/v3/idle/5.png",
+      "sha256": "4c01847b6d0537d53f06e3957fa3d354b23c91d1d5d36b91cd693b450eade36f"
+    },
+    {
+      "path": "output/playwright/v3/idle/60.png",
+      "sha256": "27970900e329a667a308be5fb642e0ba142ff64d6a488ecb4904f33de31ebc85"
+    },
+    {
+      "path": "output/playwright/v3/idle/8.png",
+      "sha256": "6e82b5c43e89541e8dbb35664820a86b5db60f5d8249e22e1dfc8a61d670fbea"
+    }
+  ],
+  "unchanged": [
+    "original six files",
+    "v2 save namespace and codec",
+    "real payment/subscription/account flags"
+  ],
+  "remaining": [
+    "brand logo",
+    "store product-image text",
+    "rating popup text",
+    "unvisited online/paid panels"
+  ]
+}
