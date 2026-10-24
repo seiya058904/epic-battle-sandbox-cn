@@ -1,0 +1,111 @@
+{
+  "recordedAt": "2026-10-24T09:08:44.550601+00:00",
+  "scope": "Public documentation website; no game assets or playable web build",
+  "testedSourceCommit": "2bcf2724af1bdc4c681d61faa683d13418544912",
+  "workflow": "https://github.com/seiya058904/epic-battle-sandbox-cn/actions/runs/40080605224",
+  "workflowConclusion": "success",
+  "browser": "Chromium 156; Python Playwright; Browser plugin not available",
+  "localChecks": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "url": "http://127.0.0.1:8766/#start",
+      "title": "史诗战斗·中文沙盒 — Epic Battle Sandbox CN",
+      "noHorizontalOverflow": true,
+      "anchorNavigation": true,
+      "faqExpanded": true,
+      "errors": [],
+      "httpFailures": [],
+      "screenshot": "output/playwright/publication/local-desktop.png",
+      "sha256": "a345e280a01665aba9f9cf2831edabcd6704a25f102c94bcd5541f12154204f1"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "url": "http://127.0.0.1:8766/#start",
+      "title": "史诗战斗·中文沙盒 — Epic Battle Sandbox CN",
+      "noHorizontalOverflow": true,
+      "anchorNavigation": true,
+      "faqExpanded": true,
+      "errors": [],
+      "httpFailures": [],
+      "screenshot": "output/playwright/publication/local-mobile.png",
+      "sha256": "27495839372738021252e89978352c92d633b549fb4230a83bf52217002795f4"
+    },
+    {
+      "localGameReady": true,
+      "defaultSandbox": true,
+      "noToolbar": true,
+      "pageerrors": [],
+      "profile": "temporary context; player-profile untouched"
+    }
+  ],
+  "liveChecks": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "url": "https://seiya058904.github.io/epic-battle-sandbox-cn/#start",
+      "title": "史诗战斗·中文沙盒 — Epic Battle Sandbox CN",
+      "noHorizontalOverflow": true,
+      "anchorNavigation": true,
+      "faqExpanded": true,
+      "errors": [],
+      "httpFailures": [],
+      "screenshot": "output/playwright/publication/live-desktop.png",
+      "sha256": "a345e280a01665aba9f9cf2831edabcd6704a25f102c94bcd5541f12154204f1"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "url": "https://seiya058904.github.io/epic-battle-sandbox-cn/#start",
+      "title": "史诗战斗·中文沙盒 — Epic Battle Sandbox CN",
+      "noHorizontalOverflow": true,
+      "anchorNavigation": true,
+      "faqExpanded": true,
+      "errors": [],
+      "httpFailures": [],
+      "screenshot": "output/playwright/publication/live-mobile.png",
+      "sha256": "27495839372738021252e89978352c92d633b549fb4230a83bf52217002795f4"
+    }
+  ],
+  "liveFiles": [
+    {
+      "path": "index.html",
+      "bytes": 7981,
+      "sha256": "286372df8fb1d0b9f2c4f7f3a4619ec15ff87acb022437861fed01311073f845",
+      "matchesLocal": true
+    },
+    {
+      "path": "style.css",
+      "bytes": 5432,
+      "sha256": "c3c530d80c99ff0635f6629d33cdc584c8b8674af780b18e7ff9a60485a8eaa6",
+      "matchesLocal": true
+    },
+    {
+      "path": "banner.svg",
+      "bytes": 1154,
+      "sha256": "ac5e0e08a9a59f9734e9aff997ecbc140f50b37aeadb3009611c8d05ef6f1270",
+      "matchesLocal": true
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 182,
+      "sha256": "b484336d26beab87c978ce2dac0c39cc1ccbd5646fdbc0b10e3b200a39272759",
+      "matchesLocal": true
+    }
+  ],
+  "readmeRendered": true,
+  "originalHashes": "6 working originals and 6 backups match baseline",
+  "storageChecks": "fresh seed, empty-v1 fallback, valid-v1 migration; both source databases unchanged",
+  "notRepeated": "Full battle and 360-second countdown test: game patch unchanged from 0.3.1",
+  "realAndroidDevice": "NOT TESTED",
+  "designReview": "Desktop and mobile reviewed; mobile table scroll hint added. Light paper and blue-tinted secondary text are intentional handbook choices."
+}

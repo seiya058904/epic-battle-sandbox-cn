@@ -1,9 +1,8 @@
 {
   "version": "0.3.2",
-  "recycledItems": 24,
-  "recycledBytes": 1967215552.0,
+  "recycledItems": 25,
+  "recycledBytes": 1967327610.0,
   "method": "Windows Recycle Bin; explicit path allowlist, no reparse points",
-  "allRemovedFromOriginalPaths": false,
   "preserved": [
     "player-profile",
     "original-backup",
@@ -40,6 +39,11 @@
     "local-work/local-generated/EBS.zh-CN.data",
     "local-work/tools/browser_lab.py",
     "local-work/tools/build_report.py",
-    "local-work/.git"
+    "local-work/.git",
+    "local-work/tools/__pycache__"
+  ],
+  "allSentToRecycleBin": true,
+  "intentionallyRecreated": [
+    "local-work/.git: new asset-free public repository"
   ]
 }
