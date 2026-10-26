@@ -1,6 +1,12 @@
 <h1 align="center">⚔️ EPIC BATTLE SANDBOX CN</h1>
 
 <p align="center">
+  <img src="docs/media/readme-cover.svg" width="100%" alt="Original geometric concept cover with two opposing formations and stylized battlefield markers" />
+  <br />
+  <sub>ORIGINAL VECTOR CONCEPT ART · NOT GAME FOOTAGE OR OFFICIAL UPSTREAM ARTWORK</sub>
+</p>
+
+<p align="center">
   <strong>Choose your army. Shape the battlefield. Let the clash unfold.</strong>
 </p>
 
