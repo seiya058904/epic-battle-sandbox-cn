@@ -1,47 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="470" viewBox="0 0 1500 470" role="img" aria-labelledby="t d">
-<title id="t">Epic Battle Sandbox CN — formations before the clash</title>
-<desc id="d">Original geometric illustration of two opposing abstract armies on an isometric battlefield, with gold and teal banners. Not game footage or official original artwork.</desc>
-<defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C181D"/><stop offset=".58" stop-color="#172C2F"/><stop offset="1" stop-color="#3A3328"/></linearGradient>
-<linearGradient id="gold"><stop stop-color="#F2D5A0"/><stop offset="1" stop-color="#E8A86F"/></linearGradient>
-<linearGradient id="field" x2="1" y2="1"><stop stop-color="#38594E"/><stop offset="1" stop-color="#1E3735"/></linearGradient>
-<pattern id="lines" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" stroke="#D5DFC9" stroke-opacity=".055" fill="none"/></pattern>
-</defs>
-<rect width="1500" height="470" fill="url(#bg)"/><rect width="1500" height="470" fill="url(#lines)"/>
-<path d="M0 469H1500" stroke="#E3BA76" stroke-opacity=".4"/>
-<g font-family="Segoe UI,Arial,sans-serif">
-<rect x="77" y="58" width="368" height="39" rx="19" fill="#213738" stroke="#7E9C87"/>
-<circle cx="100" cy="77" r="5" fill="#F1C982"/>
-<text x="119" y="84" font-size="17" letter-spacing="2.3" font-weight="700" fill="#BFD0C3">MODIFIED WEBGL BATTLE SANDBOX</text>
-<text x="69" y="195" font-size="79" font-weight="850" letter-spacing="-3" fill="#F5F4E9">EPIC BATTLE</text>
-<text x="69" y="283" font-size="84" font-weight="850" letter-spacing="-3" fill="url(#gold)">SANDBOX</text>
-<text x="76" y="334" font-size="26" fill="#D1DCCF">Build the formation. Watch the outcome.</text>
-<path d="M76 372H713" stroke="#B5C4B2" stroke-opacity=".45"/>
-<text x="78" y="411" font-size="18" letter-spacing="2.7" font-weight="700" fill="#B3C7BF">37 TROOP TYPES  ·  3D AUTO-BATTLES</text>
-</g>
-<!-- Original geometric tactical stage -->
-<path d="M800 279L1140 114 1465 270 1125 441Z" fill="url(#field)" stroke="#719582" stroke-width="4"/>
-<path d="M838 279L1140 134 1429 270 1125 416Z" fill="none" stroke="#BFCFAE" stroke-opacity=".35" stroke-width="3"/>
-<g fill="none" stroke="#A6BDA3" stroke-opacity=".26" stroke-width="2">
-<path d="M865 307L1167 160M936 345L1237 196M1005 381L1307 230M1063 410L1364 265"/>
-<path d="M877 241L1210 396M946 205L1284 364M1013 174L1353 329M1082 141L1421 293"/>
-</g>
-<!-- Teal squad as abstract unit markers -->
-<g>
-<g transform="translate(968 258)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#58C8B8"/><path d="M0-32L18 9 0 28Z" fill="#267E81"/><circle cy="-37" r="12" fill="#B2F5DF"/></g>
-<g transform="translate(1031 288)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#58C8B8"/><path d="M0-32L18 9 0 28Z" fill="#267E81"/><circle cy="-37" r="12" fill="#B2F5DF"/></g>
-<g transform="translate(1009 215)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#58C8B8"/><path d="M0-32L18 9 0 28Z" fill="#267E81"/><circle cy="-37" r="12" fill="#B2F5DF"/></g>
-</g>
-<!-- Gold squad -->
-<g>
-<g transform="translate(1244 247)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#EFB778"/><path d="M0-32L18 9 0 28Z" fill="#AD745B"/><circle cy="-37" r="12" fill="#FFE3A5"/></g>
-<g transform="translate(1304 273)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#EFB778"/><path d="M0-32L18 9 0 28Z" fill="#AD745B"/><circle cy="-37" r="12" fill="#FFE3A5"/></g>
-<g transform="translate(1270 205)"><ellipse rx="37" ry="15" cy="26" fill="#06191C" opacity=".45"/><path d="M-18 9L0-32 18 9 0 28Z" fill="#EFB778"/><path d="M0-32L18 9 0 28Z" fill="#AD745B"/><circle cy="-37" r="12" fill="#FFE3A5"/></g>
-</g>
-<g stroke-width="5" fill="none" stroke-linecap="round"><path d="M1083 247Q1164 194 1216 234" stroke="#CBEBD1" stroke-dasharray="7 13"/><path d="M1186 294Q1161 322 1114 317" stroke="#E7C498" stroke-dasharray="7 13"/></g>
-<g fill="#E9D4AD"><path d="M1137 215l13 18-13 18-13-18z"/><path d="M1161 231h46" stroke="#F3D8AF" stroke-width="2"/></g>
-<g font-family="Segoe UI,Arial,sans-serif">
-<rect x="1170" y="54" width="242" height="39" rx="19" fill="#2C3836" stroke="#957B55"/>
-<text x="1192" y="80" font-size="16" letter-spacing="2" font-weight="700" fill="#EFCEA0">FORMATION  /  CLASH</text>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">A battlefield of opposing formations</title>
+  <desc id="desc">Original illustration of two abstract banners and deployment lanes on a green battlefield.</desc>
+  <rect width="1200" height="320" fill="#193f39"/>
+  <path d="M0 245L600 53l600 192v75H0z" fill="#6e9b76"/>
+  <path d="M0 296L600 105l600 191v24H0z" fill="#99bd8e"/>
+  <path d="M255 320L600 209l345 111M80 320L600 155l520 165" fill="none" stroke="#d4ddaa" stroke-width="2" opacity=".65"/>
+  <path d="M600 54v266" stroke="#e7c67f" stroke-width="3" stroke-dasharray="9 10" opacity=".8"/>
+  <g transform="translate(290 66)"><path d="M0 0v130" stroke="#e7c67f" stroke-width="6"/><path d="M0 0h112l-18 30 18 30H0z" fill="#bd6c62"/><path d="M24 18h47M24 31h36M24 44h47" stroke="#f9eac4" stroke-width="4"/></g>
+  <g transform="translate(910 66)"><path d="M0 0v130" stroke="#e7c67f" stroke-width="6"/><path d="M0 0h-112l18 30-18 30H0z" fill="#568fa1"/><path d="M-24 18h-47M-24 31h-36M-24 44h-47" stroke="#e8f4ec" stroke-width="4"/></g>
+  <g fill="#bd6c62" stroke="#f4dfae" stroke-width="3"><circle cx="365" cy="228" r="12"/><circle cx="405" cy="215" r="12"/><circle cx="445" cy="202" r="12"/><circle cx="330" cy="258" r="12"/><circle cx="370" cy="245" r="12"/><circle cx="410" cy="232" r="12"/></g>
+  <g fill="#568fa1" stroke="#e8f4ec" stroke-width="3"><path d="M823 216h24v24h-24zm-40-13h24v24h-24zm-40-13h24v24h-24zm115 56h24v24h-24zm-40-13h24v24h-24zm-40-13h24v24h-24z"/></g>
+  <circle cx="600" cy="171" r="24" fill="#e7c67f"/><path d="M587 171h26m-13-13v26" stroke="#193f39" stroke-width="4"/>
 </svg>
