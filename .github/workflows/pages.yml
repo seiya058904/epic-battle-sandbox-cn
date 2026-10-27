@@ -3,7 +3,11 @@ name: Validate and deploy playable game
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - '**/readme-*'
   pull_request:
+    paths-ignore:
+      - '**/readme-*'
   workflow_dispatch:
 
 permissions:
