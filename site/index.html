@@ -5,10 +5,21 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="Play Epic Battle Sandbox CN: a browser-based single-player battle sandbox with partial Simplified Chinese UI, max-level troops and generous resources.">
 <meta name="theme-color" content="#142b3d">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; script-src 'self' 'unsafe-eval' blob:; connect-src 'self'; style-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: data:; script-src 'self' 'sha256-bEm+P2RhfYcz0LtfmHKQQ9Yajm3LLLEDKrvGQcP2E0U=' https://static.cloudflareinsights.com/beacon.min.js 'unsafe-eval' blob:; connect-src 'self' https://cloudflareinsights.com; style-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'self'">
 <title>Epic Battle Sandbox CN — Play</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="game.css">
+<!-- Cloudflare Web Analytics: public website only -->
+<script type="module">
+// Aggregate page visits on the public website only; local and offline copies stay offline.
+if (location.hostname === "seiya058904.github.io" && !document.querySelector("script[data-cf-beacon]")) {
+  const beacon = document.createElement("script");
+  beacon.type = "module";
+  beacon.src = "https://static.cloudflareinsights.com/beacon.min.js";
+  beacon.dataset.cfBeacon = JSON.stringify({ token: "092f74f76781425ab5ed9495073e4d0f", spa: false });
+  document.head.appendChild(beacon);
+}
+</script>
 </head>
 <body>
 <main><canvas id="unity-canvas" tabindex="0" aria-label="史诗战斗中文沙盒"></canvas></main>
