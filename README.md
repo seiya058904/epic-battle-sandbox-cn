@@ -219,3 +219,7 @@ No payment receipts, subscription flags, online balances, leaderboards or remote
   <a href="https://seiya058904.github.io/epic-battle-sandbox-cn/"><strong>Enter the battlefield →</strong></a>
   <br /><sub>Make a formation. Watch it unfold. Try something different.</sub>
 </p>
+
+## Website analytics
+
+The public website uses Cloudflare Web Analytics for aggregate page visits and performance. The beacon loads only on `seiya058904.github.io`; local previews and offline copies do not load it. No game saves, journal entries, map contents, or form values are passed to the analytics integration. Statistics start after deployment and do not recover earlier traffic. See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
